@@ -17,11 +17,11 @@
 - Now try to push, You should now be prompted for your username and password (or personal access token) without any reference to `gh`.
 - Even after this, i was getting the same error
 - **After this: I had to remove the `.gitconfig`** file too or you can try doing the following
-	- ## Steps to Fix the `.gitconfig`
+**Steps to Fix the `.gitconfig`**
 
 1. **Edit Your `.gitconfig` File**:  
     Open your `.gitconfig` file in a text editor. You can use any editor of your choice, such as `nano`, `vim`, or `gedit`. Here’s how to do it with `nano`:bash
-    
+
     `nano ~/.gitconfig`
     
 2. **Remove or Comment Out the Credential Helpers**:  
