@@ -4,7 +4,9 @@
 	2. **Incorrect Path**:If `gh` is installed but located in a different directory, the system won't be able to find it at `/usr/bin/gh`. You can check where it is installed and update your `$PATH` variable accordingly.
 	3. **Installation Issues**: Sometimes, the installation might have been corrupted or incomplete. Reinstalling the GitHub CLI can resolve this issue. If you used a package manager like `snap`, consider uninstalling it and reinstalling using the official instructions from GitHub
 	4. **Configuration Errors**: If you have recently made changes to your Git configuration or authentication settings, ensure that they are correct. You might need to run `gh auth login` again to set up your authentication properly
-- In My case it was appearing whenever i tried to push, but I didn't have `gh cli` installed, but I had installed it earlier, so i think there was some misconfiguration. So what I did
-	- **Remove GitHub CLI References from Git Configuration**: `git config --global --unset credential.helper`
-	- **After running this command, check if any credential helpers are still set:** `git config --list --show-origin | grep credential`
-	- **After this: I had to remove the `.gitconfig`** file too
+
+> In My case it was appearing whenever i tried to push, but I didn't have `gh cli` installed, but I had installed it earlier, so i think there was some misconfiguration. So what I did
+	
+- **Remove GitHub CLI References from Git Configuration**: `git config --global --unset credential.helper`
+- **After running this command, check if any credential helpers are still set:** `git config --list --show-origin | grep credential`
+- **After this: I had to remove the `.gitconfig`** file too
