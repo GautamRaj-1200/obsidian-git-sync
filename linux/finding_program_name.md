@@ -5,7 +5,11 @@ When managing software on Ubuntu or other Debian-based systems using the APT pac
 ### 1. List all installed packages
 - **dpkg**
 	- `dpkg --list`
+	- For a specific package: `dpkg --list | grep <partial_name>`
 - **apt**
-	- 
+	- `apt list --installed`
+	- For a specific package: `apt list --installed | grep <partial_name>`
+
+### 2. 
 
 
