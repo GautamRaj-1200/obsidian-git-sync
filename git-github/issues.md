@@ -9,7 +9,12 @@
 	
 - **Remove GitHub CLI References from Git Configuration**: `git config --global --unset credential.helper`
 - **After running this command, check if any credential helpers are still set:** `git config --list --show-origin | grep credential`
-- Now try to push, you will be asked
+- **Clean Up Configuration Files**:  
+	Additionally, you should remove any leftover configuration files related to `gh`. Delete the following directories if they exist:
+	```
+	rm -rf ~/.config/gh rm -rf ~/.local/state/gh rm -rf ~/.local/share/gh
+	```
+- Now try to push, You should now be prompted for your username and password (or personal access token) without any reference to `gh`.
 - **After this: I had to remove the `.gitconfig`** file too or you 
 - **Set Up a Different Credential Helper (Optional)**: **cache** or **store**
 	- `git config --global credential.helper cache # Temporarily caches credentials in memory.`
