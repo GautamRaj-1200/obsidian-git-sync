@@ -15,7 +15,35 @@
 	rm -rf ~/.config/gh rm -rf ~/.local/state/gh rm -rf ~/.local/share/gh
 	```
 - Now try to push, You should now be prompted for your username and password (or personal access token) without any reference to `gh`.
-- **After this: I had to remove the `.gitconfig`** file too or you 
+- Even after this, i was getting the same error
+- **After this: I had to remove the `.gitconfig`** file too or you can try doing the following
+	- ## Steps to Fix the `.gitconfig`
+
+1. **Edit Your `.gitconfig` File**:  
+    Open your `.gitconfig` file in a text editor. You can use any editor of your choice, such as `nano`, `vim`, or `gedit`. Here’s how to do it with `nano`:bash
+    
+    `nano ~/.gitconfig`
+    
+2. **Remove or Comment Out the Credential Helpers**:  
+    Locate the sections that reference `gh` for credential management. Your configuration currently looks like this:text
+    
+    `[credential "https://github.com"]     helper =    helper = !/usr/bin/gh auth git-credential [credential "https://gist.github.com"]     helper =    helper = !/usr/bin/gh auth git-credential`
+    You can either delete these lines or comment them out by adding a `#` at the beginning of each line. The modified section should look like this:text
+    
+    `[credential "https://github.com"]     # helper =    # helper = !/usr/bin/gh auth git-credential [credential "https://gist.github.com"]     # helper =    # helper = !/usr/bin/gh auth git-credential`
+    
+3. **Save and Exit**:  
+    If you are using `nano`, save the changes by pressing `CTRL + O`, then exit with `CTRL + X`.
+4. **Verify Changes**:  
+    You can verify that the changes have been made by running:bash
+    
+    `git config --list --show-origin | grep credential`
+    Ensure that there are no remaining references to `gh`.
+5. **Push Your Code Again**:  
+    Now try pushing your code again using Git:bash
+    
+    `git push origin main  # Replace 'main' with your branch name if different.`
+    You should no longer see the error related to `/usr/bin/gh`.
 - **Set Up a Different Credential Helper (Optional)**: **cache** or **store**
 	- `git config --global credential.helper cache # Temporarily caches credentials in memory.`
 	- `git config --global credential.helper store` - I use the store
