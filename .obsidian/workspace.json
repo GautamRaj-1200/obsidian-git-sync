@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux/removing_software_completely.md",
+                "file": "linux/finding_program_name.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "removing_software_completely"
+              "title": "finding_program_name"
             }
           }
         ]
@@ -165,11 +165,11 @@
   },
   "active": "216dc10e5470a51e",
   "lastOpenFiles": [
+    "linux/removing_software_completely.md",
     "linux/finding_program_name.md",
     "linux/updating_softwares.md",
     "git-github/remove_git.md",
     "git-github/issues.md",
-    "linux/removing_software_completely.md",
     "git-github/first_time.md",
     "linux",
     "Untitled.md",
