@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux/Untitled.md",
+                "file": "linux/removing_software_completely.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "removing_software_completely"
             }
           }
         ]
@@ -166,7 +166,7 @@
   "active": "216dc10e5470a51e",
   "lastOpenFiles": [
     "git-github/remove_git.md",
-    "linux/Untitled.md",
+    "linux/removing_software_completely.md",
     "linux",
     "Untitled.md",
     "git-github/issues.md",
