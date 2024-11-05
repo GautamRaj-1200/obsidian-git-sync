@@ -21,5 +21,15 @@ git config --global user.name "your username"
 git config --global user.email "your email"
 ```
 6. **Set Up Credential Helper** (Optional):  To avoid entering your credentials every time, you can store them securely:
+```bash
+git config --global credential.helper store --file ~/.my-credentials
 ```
+7. **Add Remote Repository**:  Replace `USERNAME` and `REPOSITORY` with your GitHub username and the name of your repository:
+```bash
+git remote add origin https://github.com/USERNAME/REPOSITORY.git
 ```
+8. **Push Your Changes**:  When you push for the first time, use the following command:
+```bash
+git push -u origin main
+```
+9. 
