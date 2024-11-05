@@ -32,4 +32,16 @@ git remote add origin https://github.com/USERNAME/REPOSITORY.git
 ```bash
 git push -u origin main
 ```
-9. 
+9. **Authenticate Using Personal Access Token**:
+	- When prompted for your username, enter your GitHub username.
+	- For the password, enter your Personal Access Token (PAT) instead of your GitHub password.
+
+### Creating PAT
+1. **Log in to GitHub**.
+2. Click on your profile picture in the top right corner and select **Settings**.
+3. In the left sidebar, click on **Developer settings**, then select **Personal access tokens**.
+4. Click on **Generate new token**.
+5. Provide a descriptive name in the "Note" field.
+6. Select the scopes you need (for general Git operations, select `repo`).
+7. Click on **Generate token**.
+8. Copy the generated token immediately; it will not be displayed again.
