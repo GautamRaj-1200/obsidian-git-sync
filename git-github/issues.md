@@ -26,11 +26,19 @@ nano ~/.gitconfig
 ```
     
 2. **Remove or Comment Out the Credential Helpers**:  
-    Locate the sections that reference `gh` for credential management. Your configuration currently looks like this:
+    Locate the sections that reference `gh` for credential management. Your configuration currently might looks like this:
     
+```bash
+[credential "https://github.com"] 
+helper =    
+helper = !/usr/bin/gh auth git-credential 
+
+[credential "https://gist.github.com"]     
+helper =   
+helper = !/usr/bin/gh auth git-credential
 ```
-```[credential "https://github.com"]     helper =    helper = !/usr/bin/gh auth git-credential [credential "https://gist.github.com"]     helper =    helper = !/usr/bin/gh auth git-credential`
-    You can either delete these lines or comment them out by adding a `#` at the beginning of each line. The modified section should look like this:text
+
+You can either delete these lines or comment them out by adding a `#` at the beginning of each line. The modified section should look like this:text
     
     `[credential "https://github.com"]     # helper =    # helper = !/usr/bin/gh auth git-credential [credential "https://gist.github.com"]     # helper =    # helper = !/usr/bin/gh auth git-credential`
     
