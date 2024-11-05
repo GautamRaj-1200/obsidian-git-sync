@@ -1,0 +1,4 @@
+## Steps
+- `git init`
+- `git add .`
+- `git commit -m "initial co`
