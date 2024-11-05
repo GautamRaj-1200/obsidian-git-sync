@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "git-github/issues.md",
+                "file": "git-github/remove_git.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "issues"
+              "title": "remove_git"
             }
           }
         ]
@@ -165,8 +165,10 @@
   },
   "active": "216dc10e5470a51e",
   "lastOpenFiles": [
-    "git-github/first_time.md",
+    "Untitled.md",
+    "git-github/remove_git.md",
     "git-github/issues.md",
+    "git-github/first_time.md",
     "java-oops/04_encapsulation.md",
     "git-github",
     "java-oops/images/java-class-heirarchy-1.png",
