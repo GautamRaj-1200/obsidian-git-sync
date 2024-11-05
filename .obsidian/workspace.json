@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "git-github/remove_git.md",
+                "file": "linux/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "remove_git"
+              "title": "Untitled"
             }
           }
         ]
@@ -163,11 +163,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cdb48516a0915393",
+  "active": "216dc10e5470a51e",
   "lastOpenFiles": [
-    "linix",
-    "Untitled.md",
     "git-github/remove_git.md",
+    "linux/Untitled.md",
+    "linux",
+    "Untitled.md",
     "git-github/issues.md",
     "git-github/first_time.md",
     "java-oops/04_encapsulation.md",
