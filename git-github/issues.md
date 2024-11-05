@@ -1,2 +1,4 @@
 ## /usr/bin/gh auth git-credential get: 1: /usr/bin/gh: not found
-- 
+- The error message `/usr/bin/gh auth git-credential get: 1: /usr/bin/gh: not found` indicates that the system cannot find the GitHub CLI (`gh`) executable at the specified path. This typically happens for a few reasons:
+	1. **GitHub CLI Not Installed**: The `gh` command may not be installed on your system. You can verify this by running `which gh` or `gh --version`. If it's not installed, you'll need to install it using your package manager (e.g., `apt`, `brew`, etc.) or download it from the GitHub releases page.
+	2. **Incorrect Path**:
