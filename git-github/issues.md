@@ -17,17 +17,19 @@
 - Now try to push, You should now be prompted for your username and password (or personal access token) without any reference to `gh`.
 - Even after this, i was getting the same error
 - **After this: I had to remove the `.gitconfig`** file too or you can try doing the following
+
 **Steps to Fix the `.gitconfig`**
-
 1. **Edit Your `.gitconfig` File**:  
-    Open your `.gitconfig` file in a text editor. You can use any editor of your choice, such as `nano`, `vim`, or `gedit`. Here’s how to do it with `nano`:bash
-
-    `nano ~/.gitconfig`
+    Open your `.gitconfig` file in a text editor. You can use any editor of your choice, such as `nano`, `vim`, or `gedit`. Here’s how to do it with `nano`:
+```bash
+nano ~/.gitconfig
+```
     
 2. **Remove or Comment Out the Credential Helpers**:  
-    Locate the sections that reference `gh` for credential management. Your configuration currently looks like this:text
+    Locate the sections that reference `gh` for credential management. Your configuration currently looks like this:
     
-    `[credential "https://github.com"]     helper =    helper = !/usr/bin/gh auth git-credential [credential "https://gist.github.com"]     helper =    helper = !/usr/bin/gh auth git-credential`
+```
+```[credential "https://github.com"]     helper =    helper = !/usr/bin/gh auth git-credential [credential "https://gist.github.com"]     helper =    helper = !/usr/bin/gh auth git-credential`
     You can either delete these lines or comment them out by adding a `#` at the beginning of each line. The modified section should look like this:text
     
     `[credential "https://github.com"]     # helper =    # helper = !/usr/bin/gh auth git-credential [credential "https://gist.github.com"]     # helper =    # helper = !/usr/bin/gh auth git-credential`
