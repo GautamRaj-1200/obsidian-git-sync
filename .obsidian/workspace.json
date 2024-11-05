@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux/updating_softwares.md",
+                "file": "git-github/issues.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "updating_softwares"
+              "title": "issues"
             }
           }
         ]
@@ -165,8 +165,8 @@
   },
   "active": "216dc10e5470a51e",
   "lastOpenFiles": [
-    "linux/removing_software_completely.md",
     "linux/updating_softwares.md",
+    "linux/removing_software_completely.md",
     "linux/finding_program_name.md",
     "git-github/first_time.md",
     "git-github/issues.md",
