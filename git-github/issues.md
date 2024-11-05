@@ -10,3 +10,6 @@
 - **Remove GitHub CLI References from Git Configuration**: `git config --global --unset credential.helper`
 - **After running this command, check if any credential helpers are still set:** `git config --list --show-origin | grep credential`
 - **After this: I had to remove the `.gitconfig`** file too
+- **Set Up a Different Credential Helper (Optional)**: **cache** or **store**
+	- `git config --global credential.helper cache # Temporarily caches credentials in memory.`
+	- ``
