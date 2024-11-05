@@ -15,7 +15,6 @@ When managing software on Ubuntu or other Debian-based systems using the APT pac
 	- `grep Exec /usr/share/applications/*.desktop`
 	- This command will display lines starting with `Exec=`, showing you the command used to launch each application.
 
-
 ### 3. Using the Application Menu
 If the application is installed and visible in your desktop environment's application menu:
 - **Right-click the application icon** and select **Properties**.
