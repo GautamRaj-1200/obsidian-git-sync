@@ -9,4 +9,7 @@
 	- For credentials we can use `cache` or `store`
 	- Then try to push, it will ask for authentication, authenticate using username and Personal Access Token.
 	- If credentials are already there, then to remove credentials and start fresh
-		
+	```bash
+	git config --global --unset-all user.name
+	git config --global --unset-all user.email
+	```
