@@ -6,4 +6,5 @@
 	git config --global user.email "your email"
 	git config --global credential.helper store --file ~/.my-credentials
 	```
-	- 
+	- For credentials we can use `cache` or `store`
+	- Then try 
