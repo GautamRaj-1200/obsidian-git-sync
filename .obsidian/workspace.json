@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "git-github/first_time.md",
+                "file": "git-github/managing_credentials.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "first_time"
+              "title": "managing_credentials"
             }
           }
         ]
@@ -165,9 +165,9 @@
   },
   "active": "216dc10e5470a51e",
   "lastOpenFiles": [
+    "git-github/first_time.md",
     "git-github/managing_credentials.md",
     "git-github/issues.md",
-    "git-github/first_time.md",
     "git-github/remove_git.md",
     "linux/finding_program_name.md",
     "linux/removing_software_completely.md",
