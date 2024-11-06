@@ -1,4 +1,4 @@
-1. **How would you manage credentials in git?**
+###  1. **How would you manage credentials in git?**
 	- First run the following command to see if the *username*, *email* or *helper* is set or not.
 	- If not, then set them using
 	```bash
