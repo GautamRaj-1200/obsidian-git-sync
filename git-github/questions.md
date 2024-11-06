@@ -16,5 +16,6 @@
 	git config --global --unset-all user.name
 	git config --global --unset-all user.email
 	git config --global --unset credential.helper
-	rm ~
+	rm ~/.git-credentials
 	```
+	- And then again set them as shown previously
