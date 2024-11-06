@@ -7,7 +7,7 @@
 	```bash
 	git config --global user.name "your username" 
 	git config --global user.email "your email"
-	git config --global credential.helper store --file ~/.my-credentials
+	git config --global credential.helper store --file ~/.git-credentials
 	```
 	- For credentials we can use `cache` or `store`. Here I am using store.
 	- Then try to push, it will ask for authentication, authenticate using username and Personal Access Token.
