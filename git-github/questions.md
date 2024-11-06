@@ -1,1 +1,1 @@
-1. **How would you ma**
+1. **How would you manage credentials in git?**
