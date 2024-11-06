@@ -7,4 +7,5 @@
 	git config --global credential.helper store --file ~/.my-credentials
 	```
 	- For credentials we can use `cache` or `store`
-	- Then try 
+	- Then try to push, it will ask for authentication, authenticate using username and Personal Access Token.
+- 
