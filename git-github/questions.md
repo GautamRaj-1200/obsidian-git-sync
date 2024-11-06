@@ -1,7 +1,7 @@
 1. **How would you manage credentials in git?**
 	1. **Check Current Configuration**:Run the following command to see if your `username`, `email`, or `credential.helper` is set: 
 	```bash
-	
+	git config --list
 	```
 	1. **Set Username and Email**:If they are not set, you can configure them globally with: This ensures that your commits are associated with the correct identity across all repositories on your machine
 	```bash
