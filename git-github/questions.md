@@ -10,4 +10,12 @@
 	git config --global credential.helper store --file ~/.git-credentials
 	```
 	4. **Authenticate When Pushing**:  The next time you push to a repository, Git will prompt you for your username and Personal Access Token (PAT). Enter these to authenticate
-	5. 
+	5. **Removing Existing Credentials**:  If you need to remove existing credentials and start fresh, execute the following commands:This will clear any previously set username, email, and credential helper settings, as well as delete the stored credentials file
+	```bash
+	git config --global --unset-all user.name 
+	git config --global --unset-all user.email 
+	git config --global --unset credential.helper 
+	rm ~/.git-credentials
+	```
+	6. **Reconfigure After Removal**:  
+    After clearing the old configurations, you can set them again using the commands from steps 2 and 3.
