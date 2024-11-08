@@ -1,0 +1,2 @@
+## Introduction
+- The **`FormData`** interface provides a way to construct a set of key/value pairs representing form fields and their values, which can be sent using the [`fetch()`](https://developer.mozilla.org/en-US/docs/Web/API/Window/fetch "fetch()"), [`XMLHttpRequest.send()`](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/send) or [`navigator.sendBeacon()`](https://developer.mozilla.org/en-US/docs/Web/API/Navigator/sendBeacon) methods.
