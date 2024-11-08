@@ -1,2 +1,5 @@
 ## Introduction
-- The **`FormData`** interface provides a way to construct a set of key/value pairs representing form fields and their values, which can be sent using the [`fetch()`](https://developer.mozilla.org/en-US/docs/Web/API/Window/fetch "fetch()"), [`XMLHttpRequest.send()`](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/send) or [`navigator.sendBeacon()`](https://developer.mozilla.org/en-US/docs/Web/API/Navigator/sendBeacon) methods.
+- `FormData` is a JavaScript object that allows us to collect form data and send it to a server in a specific format called `"multipart/form-data"`. This is commonly used to send files (like PDFs, images, etc.) or other form data in HTTP requests.'
+- When do we use `FormData`?
+	- You use `FormData` when you want to send form data (like file uploads) through an HTTP request (e.g., using `fetch()`) to a server.
+- This interface provides a way to construct a set of key/value pairs representing form fields and their values, which can be sent using the [`fetch()`](https://developer.mozilla.org/en-US/docs/Web/API/Window/fetch "fetch()"), [`XMLHttpRequest.send()`](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/send) or [`navigator.sendBeacon()`](https://developer.mozilla.org/en-US/docs/Web/API/Navigator/sendBeacon) methods.
