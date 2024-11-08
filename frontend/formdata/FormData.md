@@ -39,5 +39,38 @@ function uploadFile() {
     console.error('Error uploading file:', error);
   });
 }
+```
+### js(backend)
+
+```js
+const express = require('express');
+const multer = require('multer');
+const path = require('path');
+
+const app = express();
+const port = 3000;
+
+// Set up multer to save the uploaded file
+const storage = multer.diskStorage({
+  destination: function (req, file, cb) {
+    cb(null, 'uploads/'); // Save files to 'uploads' directory
+  },
+  filename: function (req, file, cb) {
+    cb(null, Date.now() + path.extname(file.originalname)); // Generate a unique filename
+  },
+});
+
+const upload = multer({ storage: storage });
+
+// Route to handle file upload
+app.post('/upload', upload.single('file'), (req, res) => {
+  // req.file contains the uploaded file
+  console.log(req.file);
+  res.json({ message: 'File uploaded successfully', file: req.file });
+});
+
+app.listen(port, () => {
+  console.log(`Server running at http://localhost:${port}`);
+});
 
 ```
