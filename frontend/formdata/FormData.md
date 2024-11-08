@@ -1,4 +1,6 @@
 ## Introduction
+- `FormData` in JavaScript is a useful interface for working with HTML forms, enabling us to easily construct and manipulate form data, especially when sending it via `fetch` or `XMLHttpRequest`.
+- It simplifies handling form data by letting us **append** and **retrieve** *key-value* pairs, manage files, and handle encoded form data without needing to manually format it.
 - `FormData` is a JavaScript object that allows us to collect form data and send it to a server in a specific format called `"multipart/form-data"`. This is commonly used to send files (like PDFs, images, etc.) or other form data in HTTP requests.'
 - When do we use `FormData`?
 	- We use `FormData` when you want to send form data (like file uploads) through an HTTP request (e.g., using `fetch()`) to a server.
