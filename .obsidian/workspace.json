@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "git-github/managing_credentials.md",
+                "file": "linux/updating_softwares.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "managing_credentials"
+              "title": "updating_softwares"
             }
           }
         ]
@@ -165,13 +165,13 @@
   },
   "active": "216dc10e5470a51e",
   "lastOpenFiles": [
-    "git-github/first_time.md",
-    "git-github/managing_credentials.md",
-    "git-github/issues.md",
-    "git-github/remove_git.md",
-    "linux/finding_program_name.md",
     "linux/removing_software_completely.md",
+    "linux/finding_program_name.md",
     "linux/updating_softwares.md",
+    "git-github/managing_credentials.md",
+    "git-github/remove_git.md",
+    "git-github/issues.md",
+    "git-github/first_time.md",
     "linux",
     "Untitled.md",
     "java-oops/04_encapsulation.md",
