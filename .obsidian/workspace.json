@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "formdata/FormData.md",
+                "file": "frontend/formdata/FormData.md",
                 "mode": "source",
                 "source": false
               },
@@ -165,11 +165,12 @@
   },
   "active": "67498b7d5f575def",
   "lastOpenFiles": [
-    "drag-and-drop/drag_and_drop_js.md",
-    "formdata/FormData.md",
-    "formdata",
+    "frontend/drag-and-drop/drag_and_drop_js.md",
+    "frontend/formdata/FormData.md",
+    "frontend",
+    "frontend/formdata",
     "git-github/first_time.md",
-    "drag-and-drop",
+    "frontend/drag-and-drop",
     "git-github/issues.md",
     "git-github/managing_credentials.md",
     "git-github/remove_git.md",
