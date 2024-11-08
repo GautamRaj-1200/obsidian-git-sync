@@ -7,3 +7,9 @@
 	- which elements are **draggable**
 	- the type of feedback the **draggable** elements produce
 	- and the **droppable** elements
+
+## Drag Events
+- HTML drag-and-drop uses the [DOM event model](https://developer.mozilla.org/en-US/docs/Web/API/Event) and _[drag events](https://developer.mozilla.org/en-US/docs/Web/API/DragEvent)_ inherited from [mouse events](https://developer.mozilla.org/en-US/docs/Web/API/MouseEvent).
+- A typical _drag operation_ begins when a user selects a _draggable_ element,
+- continues when the user drags the element to a _droppable_ element, 
+- and then ends when the user releases the dragged element.
