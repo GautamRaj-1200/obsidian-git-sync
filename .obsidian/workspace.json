@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "resources/resources.md",
+                "file": "designs/designs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "resources"
+              "title": "designs"
             }
           }
         ]
@@ -165,8 +165,22 @@
   },
   "active": "67498b7d5f575def",
   "lastOpenFiles": [
-    "frontend/formdata/FormData.md",
     "resources/resources.md",
+    "designs/images/image-3.png",
+    "designs/images/image-8.png",
+    "designs/images/image-7.png",
+    "designs/images/image-6.png",
+    "designs/images/image-5.png",
+    "designs/images/image-4.png",
+    "designs/images/image-2.png",
+    "designs/images/image-1.png",
+    "designs/images",
+    "designs/01_ui_design_fundamentals/02_contrast.md",
+    "designs/01_ui_design_fundamentals/01_white_space.md",
+    "designs/01_ui_design_fundamentals",
+    "designs/designs.md",
+    "designs",
+    "frontend/formdata/FormData.md",
     "resources",
     "frontend/drag-and-drop/drag_and_drop_js.md",
     "frontend",
@@ -195,10 +209,6 @@
     "java-oops/07_abstraction.md",
     "java-oops/06_polymorphism.md",
     "java-oops/05_inheritance.md",
-    "java-oops/03_access_modifiers.md",
-    "java-oops/02_classes_objects_constructors.md",
-    "java-oops/01_introduction_to_oops.md",
-    "java-oops/00_order_of_study.md",
-    "java-oops"
+    "java-oops/03_access_modifiers.md"
   ]
 }
