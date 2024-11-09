@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "frontend/formdata/FormData.md",
+                "file": "resources/resources.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "FormData"
+              "title": "resources"
             }
           }
         ]
@@ -165,8 +165,10 @@
   },
   "active": "67498b7d5f575def",
   "lastOpenFiles": [
-    "frontend/drag-and-drop/drag_and_drop_js.md",
     "frontend/formdata/FormData.md",
+    "resources/resources.md",
+    "resources",
+    "frontend/drag-and-drop/drag_and_drop_js.md",
     "frontend",
     "frontend/formdata",
     "git-github/first_time.md",
