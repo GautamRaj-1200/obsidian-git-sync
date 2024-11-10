@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "prep-for-fast-dev/checklist.md",
+                "file": "backend/nodejs/setup_js.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "checklist"
+              "title": "setup_js"
             }
           }
         ]
@@ -165,6 +165,9 @@
   },
   "active": "0789d2e6614edc50",
   "lastOpenFiles": [
+    "backend/nodejs/setup_ts.md",
+    "backend/nodejs/setup_js.md",
+    "prep-for-fast-dev/checklist.md",
     "shell-scripting/errors/bad_substitution.md",
     "shell-scripting/EOF.md",
     "linux/errors/shell-scripting/bad_substitution.md",
@@ -175,13 +178,10 @@
     "backend/nodejs/directory_structure_script.md",
     "linux/errors/shell-scripting",
     "linux/errors",
-    "prep-for-fast-dev/checklist.md",
-    "backend/nodejs/setup_ts.md",
     "linux/finding_program_name.md",
     "linux/removing_software_completely.md",
     "linux/running_a_script.md",
     "linux/run_script_from_anywhere.md",
-    "backend/nodejs/setup_js.md",
     "prep-for-fast-dev",
     "backend/Untitled.md",
     "backend/nodejs",
