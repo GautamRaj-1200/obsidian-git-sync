@@ -108,6 +108,19 @@ export const connectDB = async () => {
 }
 EOF
 
+cat <<\EOF > server/Setup.md
+
+- Install For JS
+- `npm i -D prettier nodemon rimraf`
+- `npm i bcrypt cookie-parser cors dotenv express jsonwebtoken mongoose nodemailer`
+
+  
+
+- Install For TS
+
+- `npm i bcrypt cookie-parser cors dotenv express jsonwebtoken mongoose nodemailer`
+
+- `npm i -D prettier nodemon rimraf @types/bcrypt @types/cookie-parser @types/cors @types/dotenv @types/express @types/jsonwebtoken @types/node @types/mongoose`
 
 
 ```
