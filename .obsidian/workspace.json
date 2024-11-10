@@ -11,10 +11,14 @@
             "id": "0789d2e6614edc50",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "prep-for-fast-dev/checklist.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "checklist"
             }
           }
         ]
@@ -159,10 +163,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cdb48516a0915393",
+  "active": "0789d2e6614edc50",
   "lastOpenFiles": [
-    "shell-scripting/EOF.md",
     "shell-scripting/errors/bad_substitution.md",
+    "shell-scripting/EOF.md",
     "linux/errors/shell-scripting/bad_substitution.md",
     "shell-scripting/errors.md",
     "shell-scripting/errors",
