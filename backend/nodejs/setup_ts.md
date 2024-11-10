@@ -1,5 +1,5 @@
 ## Install
-- `npm i -D prettier nodemon rimraf`
+- `npm i -D prettier nodemon rimraf @types/bcrypt @types/cookie-parser @types/cors @types/dotenv @types/express @types/jsonwebtoken @types/node @`
 - `npm i bcrypt cookie-parser cors dotenv express jsonwebtoken mongoose nodemailer`
 ## `app.js`
 
