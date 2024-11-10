@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux/errors/shell-scripting/Untitled.md",
+                "file": "linux/errors/shell-scripting/bad_substitution.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "bad_substitution"
             }
           }
         ]
@@ -163,10 +163,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "dfa1e624c22b495a",
+  "active": "cdb48516a0915393",
   "lastOpenFiles": [
+    "Untitled",
     "backend/nodejs/directory_structure_script.md",
-    "linux/errors/shell-scripting/Untitled.md",
+    "linux/errors/shell-scripting/bad_substitution.md",
     "linux/errors/shell-scripting",
     "linux/errors",
     "prep-for-fast-dev/checklist.md",
@@ -209,7 +210,6 @@
     "java-oops/04_encapsulation.md",
     "java-oops/images/java-class-heirarchy-1.png",
     "java-oops/images/image-1.png",
-    "java-oops/static_keyword.md",
-    "java-oops/association.md"
+    "java-oops/static_keyword.md"
   ]
 }
