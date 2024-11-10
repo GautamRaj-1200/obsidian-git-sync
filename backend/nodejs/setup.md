@@ -1,6 +1,6 @@
 ## Install
 - `npm i -D prettier nodemon`
-- `npm i bcrypt cookie-parser`
+- `npm i bcrypt cookie-parser cors dotenv express jso`
 ## `app.js`
 
 ```js
