@@ -58,13 +58,13 @@ app.get("/health", (req, res) => {
     res.status(200).json({ status: "OK" });
 });
 
-import authRouter from "./routes/auth.routes.js";
-import postRouter from "./routes/post.routes.js"
-import userRouter from "./routes/user.routes.js"
+//import authRouter from "./routes/auth.routes.js";
+//import postRouter from "./routes/post.routes.js"
+//import userRouter from "./routes/user.routes.js"
 
-app.use("/api/v1/auth", authRouter);
-app.use("/api/v1/posts", postRouter)
-app.use("/api/v1/users", userRouter)
+//app.use("/api/v1/auth", authRouter);
+//app.use("/api/v1/posts", postRouter)
+//app.use("/api/v1/users", userRouter)
 
 export default app;
 EOF
@@ -114,13 +114,7 @@ cat <<\EOF > server/Setup.md
 - `npm i -D prettier nodemon rimraf`
 - `npm i bcrypt cookie-parser cors dotenv express jsonwebtoken mongoose nodemailer`
 
-  
-
 - Install For TS
-
 - `npm i bcrypt cookie-parser cors dotenv express jsonwebtoken mongoose nodemailer`
-
 - `npm i -D prettier nodemon rimraf @types/bcrypt @types/cookie-parser @types/cors @types/dotenv @types/express @types/jsonwebtoken @types/node @types/mongoose`
-
-
 ```
