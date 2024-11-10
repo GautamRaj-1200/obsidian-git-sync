@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "af6c07b003b0c39c",
+        "id": "e06c971f2a6f204e",
         "type": "tabs",
         "children": [
           {
-            "id": "1ee885fef5615d13",
+            "id": "0789d2e6614edc50",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "shell-scripting/errors/bad_substitution.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "bad_substitution"
+              "title": "New tab"
             }
           }
         ]
@@ -163,7 +159,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1ee885fef5615d13",
+  "active": "cdb48516a0915393",
   "lastOpenFiles": [
     "shell-scripting/EOF.md",
     "shell-scripting/errors/bad_substitution.md",
