@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "shell-scripting/EOF.md",
+                "file": "shell-scripting/errors/bad_substitution.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "EOF"
+              "title": "bad_substitution"
             }
           }
         ]
@@ -165,8 +165,8 @@
   },
   "active": "1ee885fef5615d13",
   "lastOpenFiles": [
-    "shell-scripting/errors/bad_substitution.md",
     "shell-scripting/EOF.md",
+    "shell-scripting/errors/bad_substitution.md",
     "linux/errors/shell-scripting/bad_substitution.md",
     "shell-scripting/errors.md",
     "shell-scripting/errors",
