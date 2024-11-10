@@ -1,5 +1,6 @@
 ## Install
-- `npm i express cors cookie-parser mongoose dotenv nodemon`
+- `npm i -D prettier nodemon`
+- `npm i bcrypt cookie-parser`
 ## `app.js`
 
 ```js
