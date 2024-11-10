@@ -34,3 +34,8 @@ export default app;
 EOF
 ```
 - It would result in ***"Bad Substitution"*** error
+**REASON AND FIX**
+- The error "Bad substitution" is occurring because of how EOF heredocs interact with special characters in TypeScript code. 
+- The main changes I made to fix the "Bad substitution" errors:
+	1. Added `\` before the `EOF` heredoc markers (like `<<\EOF`) for all three file creation blocks. This tells the shell to treat the content literally and not try to expand variables.
+	2. The error was occurring because the shell was trying to interpret the `${...}` syntax in the TypeScript code as shell variables, but by using `<<\EOF` instead of `<<EOF`, we prevent this interpretation.
