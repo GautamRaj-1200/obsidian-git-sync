@@ -11,10 +11,14 @@
             "id": "dfa1e624c22b495a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "backend/nodejs/setup.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "setup"
             }
           }
         ]
@@ -159,10 +163,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cdb48516a0915393",
+  "active": "dfa1e624c22b495a",
   "lastOpenFiles": [
-    "backend/nodejs",
     "backend/Untitled.md",
+    "backend/nodejs/setup.md",
+    "backend/nodejs",
     "frontend/google-fonts.md",
     "backend",
     "designs/designs.md",
@@ -196,7 +201,6 @@
     "linux",
     "Untitled.md",
     "java-oops/04_encapsulation.md",
-    "git-github",
     "java-oops/images/java-class-heirarchy-1.png",
     "java-oops/images/image-1.png",
     "java-oops/static_keyword.md",
