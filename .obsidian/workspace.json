@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "backend/nodejs/setup_ts.md",
+                "file": "prep-for-fast-dev/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "setup_ts"
+              "title": "Untitled"
             }
           }
         ]
@@ -165,8 +165,10 @@
   },
   "active": "dfa1e624c22b495a",
   "lastOpenFiles": [
-    "backend/nodejs/setup_js.md",
     "backend/nodejs/setup_ts.md",
+    "prep-for-fast-dev/Untitled.md",
+    "prep-for-fast-dev",
+    "backend/nodejs/setup_js.md",
     "backend/Untitled.md",
     "backend/nodejs",
     "frontend/google-fonts.md",
@@ -199,7 +201,6 @@
     "linux/finding_program_name.md",
     "linux/updating_softwares.md",
     "linux/removing_software_completely.md",
-    "linux",
     "Untitled.md",
     "java-oops/04_encapsulation.md",
     "java-oops/images/java-class-heirarchy-1.png",
@@ -209,7 +210,6 @@
     "java-oops/11_final_keyword.md",
     "java-oops/10_super_keyword.md",
     "java-oops/09_this_keyword.md",
-    "java-oops/08_interface.md",
-    "java-oops/07_abstraction.md"
+    "java-oops/08_interface.md"
   ]
 }
