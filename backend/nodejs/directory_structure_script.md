@@ -15,3 +15,5 @@ touch server/src/models/.gitkeep
 touch server/src/routes/.gitkeep server/src/types/.gitkeep
 touch server/.env server/.gitignore
 ```
+
+### Run this script to create directory structure with starte
