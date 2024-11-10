@@ -3,5 +3,9 @@
 - Example
 	- **Passing multi-line string to a file in Bash**
 	```bash
-cat <<EOF > print.sh
+		cat <<EOF > print.sh
+		#!/bin/bash
+		echo \$PWD
+		echo $PWD
+		EOF
 	```
