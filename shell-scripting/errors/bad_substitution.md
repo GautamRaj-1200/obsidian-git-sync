@@ -29,101 +29,57 @@ const app = express();
 app.use(
 cors({
 origin: process.env.CORS_ORIGIN,
-
 credentials: true,
-
 })
-
 );
 
-  
-
 app.use(express.json({ limit: "16kb" }));
-
 app.use(express.urlencoded({ extended: true, limit: "16kb" }));
-
 app.use(express.static("public"));
-
-app.use(cookieParser());
-
-  
+app.use(cookieParser());  
 
 app.get("/health", (req, res) => {
-
 res.status(200).json({ status: "OK" });
-
 });
 
-  
-
 import authRouter from "./routes/auth.routes.js";
-
 import postRouter from "./routes/post.routes.js"
-
-import userRouter from "./routes/user.routes.js"
-
-  
+import userRouter from "./routes/user.routes.js"  
 
 app.use("/api/v1/auth", authRouter);
-
 app.use("/api/v1/posts", postRouter)
-
 app.use("/api/v1/users", userRouter)
 
-  
-
 export default app;
-
 EOF
 
   
 
 cat <<\EOF > server/src/index.ts
-
 import app from "./app.js";
-
 import dotenv from "dotenv";
-
 dotenv.config();
-
-import { connectDB } from "./db/connection.js";
-
-  
+import { connectDB } from "./db/connection.js"; 
 
 connectDB()
-
 .then(() => {
-
 const server = app.listen(process.env.PORT || 8000, () => {
-
 console.log(`Server is running at ${process.env.PORT}`);
-
 });
 
 server.on('error', (error) => {
-
 console.error("Server error: ", error);
-
 process.exit(1);
-
 });
-
 })
-
-  
-
 .catch((err) => {
-
 console.log("Mongo DB connection FAILED!!!!", err);
-
 });
-
 EOF
 
   
 
 cat <<\EOF > server/src/db/connection.ts
-
 import mongoose from "mongoose"
 
   
