@@ -16,4 +16,8 @@ touch server/src/routes/.gitkeep server/src/types/.gitkeep
 touch server/.env server/.gitignore
 ```
 
-### Run this script to create directory structure with starte
+### Run this script to create directory structure with starter code in `app.ts`, `index.ts` and `db/connection.ts`
+
+```bash
+
+```
