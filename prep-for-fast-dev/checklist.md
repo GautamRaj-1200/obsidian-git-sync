@@ -1,1 +1,3 @@
-- [ ]  
+- [x] Done
+	- node directory structure script
+- [ ] 
