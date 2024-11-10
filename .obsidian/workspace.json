@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux/run_script_from_anywhere.md",
+                "file": "linux/running_a_script.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "run_script_from_anywhere"
+              "title": "running_a_script"
             }
           }
         ]
@@ -165,8 +165,9 @@
   },
   "active": "dfa1e624c22b495a",
   "lastOpenFiles": [
-    "linux/removing_software_completely.md",
     "linux/run_script_from_anywhere.md",
+    "linux/running_a_script.md",
+    "linux/removing_software_completely.md",
     "linux/finding_program_name.md",
     "backend/nodejs/setup_ts.md",
     "backend/nodejs/setup_js.md",
@@ -209,7 +210,6 @@
     "java-oops/static_keyword.md",
     "java-oops/association.md",
     "java-oops/11_final_keyword.md",
-    "java-oops/10_super_keyword.md",
-    "java-oops/09_this_keyword.md"
+    "java-oops/10_super_keyword.md"
   ]
 }
