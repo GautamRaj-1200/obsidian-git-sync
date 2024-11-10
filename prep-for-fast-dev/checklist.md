@@ -1,1 +1,2 @@
-- Node JS Backend D
+- Node JS Backend directory structure script - **Done**
+- 
