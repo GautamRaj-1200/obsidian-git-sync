@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "5fe6c930f1c51f3d",
+        "id": "d9fe9284e7a565fc",
         "type": "tabs",
         "children": [
           {
-            "id": "67498b7d5f575def",
+            "id": "dfa1e624c22b495a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "frontend/google-fonts.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "google-fonts"
+              "title": "New tab"
             }
           }
         ]
@@ -163,10 +159,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "67498b7d5f575def",
+  "active": "cdb48516a0915393",
   "lastOpenFiles": [
-    "designs/designs.md",
+    "backend/nodejs",
+    "backend/Untitled.md",
     "frontend/google-fonts.md",
+    "backend",
+    "designs/designs.md",
     "resources/resources.md",
     "designs/images/image-3.png",
     "designs/images/image-8.png",
@@ -201,15 +200,12 @@
     "java-oops/images/java-class-heirarchy-1.png",
     "java-oops/images/image-1.png",
     "java-oops/static_keyword.md",
-    "java-oops/images",
     "java-oops/association.md",
     "java-oops/11_final_keyword.md",
     "java-oops/10_super_keyword.md",
     "java-oops/09_this_keyword.md",
     "java-oops/08_interface.md",
     "java-oops/07_abstraction.md",
-    "java-oops/06_polymorphism.md",
-    "java-oops/05_inheritance.md",
-    "java-oops/03_access_modifiers.md"
+    "java-oops/06_polymorphism.md"
   ]
 }
