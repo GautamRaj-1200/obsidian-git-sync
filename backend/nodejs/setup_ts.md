@@ -1,7 +1,7 @@
 ## Install
 - `npm i bcrypt cookie-parser cors dotenv express jsonwebtoken mongoose nodemailer`
 - `npm i -D prettier nodemon rimraf @types/bcrypt @types/cookie-parser @types/cors @types/dotenv @types/express @types/jsonwebtoken @types/node @types/mongoose`
-## `app.js`
+## `app.ts`
 
 ```js
 import express from "express"
@@ -10,23 +10,23 @@ import cookieParser from "cookie-parser"
 const app = express()
 
 app.use(cors({
-    origin: process.env.CORS_ORIGIN,
-    credentials: true,
+	origin: process.env.CORS_ORIGIN,	
+	credentials: true,
 }))
 
 app.use(express.json({ limit: "16kb" }))
 app.use(express.urlencoded({ extended: true, limit: "16kb" }))
 app.use(express.static("public"))
-app.use(cookieParser())
+app.use(cookieParser()) 
 
 app.get('/health', (req, res) => {
-    res.status(200).json({ status: 'OK' });
+	res.status(200).json({ status: 'OK' });
 });
 
 export default app
 ```
 
-## `db/connection.js`
+## `db/connection.ts`
 
 ```js
 import mongoose from "mongoose";
@@ -47,26 +47,27 @@ const connectDB = async () => {
 export default connectDB;
 ```
 
-## `index.js`
+## `index.ts`
 
 ```js
-import app from "./app.js";
-import dotenv from "dotenv";
-dotenv.config();
-import connectDB from "./db/connection.js";
+import dotenv from "dotenv"
+dotenv.config()
+import { connectDB } from "./db/connection"
+import app from "./app"
 
 connectDB()
-  .then(() => {
-    const server = app.listen(process.env.PORT || 8000, () => {
-      console.log(`Server is running at ${process.env.PORT}`);
-    });
-    server.on('error', (error) => {
-      console.error("Server error: ", error);
-      process.exit(1);
-    });
-  })
+	.then(() => {
+		app.on("error", (error) => {
+			console.log("ERR: ", error);
+			throw error;
+		});
 
-  .catch((err) => {
-    console.log("Mongo DB connection FAILED!!!!", err);
-  });
+		app.listen(process.env.PORT || 8000, () => {
+			console.log(`Server is running at ${process.env.PORT}`);
+		});
+
+	})
+	.catch((err) => {
+		console.log("Mongo DB connection FAILED!!!!", err);
+	});
 ```
