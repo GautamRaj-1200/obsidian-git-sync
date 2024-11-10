@@ -1,5 +1,5 @@
 ## Install
-- `npm i express cors cookie-parser mongoose dotenv`
+- `npm i express cors cookie-parser mongoose dotenv nodemon`
 ## `app.js`
 
 ```js
