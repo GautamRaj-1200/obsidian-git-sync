@@ -1,1 +1,5 @@
-## When running a script to setp
+## Error happened when running a script to setup node project
+- The script
+```bash
+
+```
