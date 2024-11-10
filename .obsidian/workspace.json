@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "backend/nodejs/setup_js.md",
+                "file": "backend/nodejs/setup_ts.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "setup_js"
+              "title": "setup_ts"
             }
           }
         ]
@@ -165,8 +165,8 @@
   },
   "active": "0789d2e6614edc50",
   "lastOpenFiles": [
-    "backend/nodejs/setup_ts.md",
     "backend/nodejs/setup_js.md",
+    "backend/nodejs/setup_ts.md",
     "prep-for-fast-dev/checklist.md",
     "shell-scripting/errors/bad_substitution.md",
     "shell-scripting/EOF.md",
