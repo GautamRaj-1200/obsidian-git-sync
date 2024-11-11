@@ -37,7 +37,7 @@ touch server/src/db/connection.ts server/src/middlewares/.gitkeep
 touch server/src/models/.gitkeep
 touch server/src/routes/.gitkeep server/src/types/.gitkeep
 touch server/src/utils/.gitkeep
-touch server/.env server/.gitignore
+touch server/.env server/.env.sample server/.gitignore
 
 cat <<\EOF > server/src/app.ts
 import express from "express";
@@ -114,7 +114,7 @@ EOF
 
 cat <<\EOF > server/package.json
 {
-  "name": "legal-blogs-ts",
+  "name": "package_name",
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
@@ -138,6 +138,7 @@ cat <<\EOF > server/package.json
     "express": "^4.21.0",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.7.0",
+    "multer": "^1.4.5-lts.1",
     "nodemailer": "^6.9.15"
   },
   "devDependencies": {
@@ -146,6 +147,7 @@ cat <<\EOF > server/package.json
     "@types/cors": "^2.8.17",
     "@types/express": "^5.0.0",
     "@types/jsonwebtoken": "^9.0.7",
+    "@types/multer": "^1.4.12",
     "@types/node": "^22.7.4",
     "@types/nodemailer": "^6.4.16",
     "nodemon": "^3.1.7",
@@ -270,4 +272,42 @@ cat <<\EOF > server/tsconfig.json
   }
 }
 EOF
+
+cat <<\EOF > server/.env
+PORT=8000
+MONGODB_URI=mongodb://localhost:27017
+DB_NAME=
+
+ACCESS_TOKEN_SECRET=
+ACCESS_TOKEN_EXPIRY=
+
+REFRESH_TOKEN_SECRET=
+REFRESH_TOKEN_EXPIRY=
+
+CORS_ORIGIN=http://localhost:5173
+
+# Nodemailer
+EMAIL=
+EMAIL_PASSWORD=
+EOF
+
+cat <<\EOF > server/.env.sample
+PORT=8000
+MONGODB_URI=mongodb://localhost:27017
+DB_NAME=
+
+ACCESS_TOKEN_SECRET=
+ACCESS_TOKEN_EXPIRY=
+
+REFRESH_TOKEN_SECRET=
+REFRESH_TOKEN_EXPIRY=
+
+CORS_ORIGIN=http://localhost:5173
+
+# Nodemailer
+EMAIL=
+EMAIL_PASSWORD=
+EOF
 ```
+
+# Javascript
