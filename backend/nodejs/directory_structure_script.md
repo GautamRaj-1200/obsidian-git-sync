@@ -312,4 +312,10 @@ EOF
 
 # Javascript
 ## Run this script to create directory structure
-## #Run this script to create directory structure with starter code in `app.ts`, `index.ts` , `db/connection.ts` and  `.env`
+
+```bash
+```
+## Run this script to create directory structure with starter code in `app.js`, `index.js` , `db/connection.js` and  `.env`
+
+```bash
+```
