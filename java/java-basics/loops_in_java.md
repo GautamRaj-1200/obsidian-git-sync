@@ -49,6 +49,7 @@ public class NumbersFor {
 
 *EXPLANATION*
 - This loop initializes `i` at 1 and continues while `i` is less than or equal to n(in this case 5). The loop executes 5 times, printing "Batman" each time.
+![image](./images/loop-1.png)
 
 **2. Display your name 5 times - 1**
 

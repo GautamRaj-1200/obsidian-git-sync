@@ -165,6 +165,12 @@
   },
   "active": "d06e1fe2d5d6d8f0",
   "lastOpenFiles": [
+    "java/java-basics/images/loop-6.png",
+    "java/java-basics/images/loop-5.png",
+    "java/java-basics/images/loop-4.png",
+    "java/java-basics/images/loop-3.png",
+    "java/java-basics/images/loop-2.png",
+    "java/java-basics/images/loop-1.png",
     "backend/nodejs/google-auth-using-passport.md",
     "java/java-oops/images/java-class-heirarchy-1.png",
     "java/java-oops/images/image-1.png",
@@ -204,11 +210,6 @@
     "shell-scripting/errors",
     "shell-scripting",
     "linux/errors/shell-scripting",
-    "linux/errors",
-    "designs/images/image-3.png",
-    "designs/images/image-8.png",
-    "designs/images/image-7.png",
-    "designs/images/image-6.png",
-    "designs/images/image-5.png"
+    "linux/errors"
   ]
 }
