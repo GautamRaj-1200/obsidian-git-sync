@@ -49,6 +49,7 @@ public class NumbersFor {
 
 *EXPLANATION*
 - This loop initializes `i` at 1 and continues while `i` is less than or equal to n(in this case 5). The loop executes 5 times, printing "Batman" each time.
+
 ![image](./images/loop-1.png)
 
 **2. Display your name 5 times - 1**
@@ -79,6 +80,7 @@ Batman
 
 *EXPLANATION*
 - This loop initializes `i` at 1 and continues while `i` is less than or equal to 5. The loop executes 5 times, printing "Batman" each time.
+
 ![image](./images/loop-2.png)
 
 **3. Display your name 5 times - 2**
@@ -109,6 +111,7 @@ Batman
 
 *EXPLANATION*
 - This loop works similarly to the first one but uses `i<6` instead of `i<=5`. Both conditions effectively limit the loop to 5 iterations.
+
 ![image](./images/loop-3.png)
 
 **4. Display your name 5 times - 3**
@@ -139,6 +142,7 @@ Batman
 
 *EXPLANATION*
 - Here, the loop initializes `i` at 0 and continues while `i` is less than or equal to 4. This variant still results in 5 iterations (0, 1, 2, 3, 4), but it uses a zero-based index.
+
 ![image](./images/loop-4.png)
 
 **5. Display your name 5 times - 4**
@@ -171,6 +175,7 @@ Batman
 - In this loop, `i` starts at 96 and runs until it reaches 100. This still results in 5 iterations (96, 97, 98, 99, 100).
 - The starting point for `i` doesn't really matter because we still get the same result. As long as the loop condition is set up correctly, we can choose any starting number for `i`. This means we can begin counting from 1, 0, or even 96, and we’ll still end up printing the same number of times.
 - If there is some kind of calculation involving `i` then we have to be careful with the initialization.
+
 ![image](./images/loop-5.png)
 
 **6. Where the value of `i` variable matters (In the first example it mattered too)**
@@ -201,4 +206,5 @@ Roll Number: 5
 
 *EXPLANATION*
 - Here we are printing the value of `i`, and if we initialize any other value of `i` , it will start printing from there. For ex: If we initialize `i` with 96, it will start printing Roll Number 96, 97, 98 and so on which we don't want.
+
 ![image](./images/loop-6.png)
