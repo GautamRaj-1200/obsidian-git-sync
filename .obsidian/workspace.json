@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "backend/nodejs/google-auth-using-passport.md",
+                "file": "java/java-basics/loops_in_java.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "google-auth-using-passport"
+              "title": "loops_in_java"
             }
           }
         ]
@@ -163,8 +163,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cdb48516a0915393",
+  "active": "d06e1fe2d5d6d8f0",
   "lastOpenFiles": [
+    "backend/nodejs/google-auth-using-passport.md",
     "java/java-oops/images/java-class-heirarchy-1.png",
     "java/java-oops/images/image-1.png",
     "java/java-oops/static_keyword.md",
@@ -192,7 +193,6 @@
     "java/java-basics/01_introduction_basic.md",
     "java/java-basics",
     "java",
-    "backend/nodejs/google-auth-using-passport.md",
     "backend/nodejs/directory_structure_script.md",
     "prep-for-fast-dev/checklist.md",
     "backend/nodejs/setup_ts.md",
@@ -209,7 +209,6 @@
     "designs/images/image-8.png",
     "designs/images/image-7.png",
     "designs/images/image-6.png",
-    "designs/images/image-5.png",
-    "designs/images/image-4.png"
+    "designs/images/image-5.png"
   ]
 }
