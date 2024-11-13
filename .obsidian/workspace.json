@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "auth"
             }
+          },
+          {
+            "id": "cd628804e171950b",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.6"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.6"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -163,7 +176,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "be373476da369740",
+  "active": "cd628804e171950b",
   "lastOpenFiles": [
     "backend/nodejs/directory_structure_script.md",
     "prep-for-fast-dev/checklist.md",
