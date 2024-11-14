@@ -163,8 +163,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "75f20e55aaec5e03",
+  "active": "cdb48516a0915393",
   "lastOpenFiles": [
+    "cron-jobs-allowed-fields.png",
+    "backend/nodejs/google-auth-using-passport.md",
     "backend/nodejs/cron-jobs.md",
     "java/java-basics/loops_in_java.md",
     "java/java-basics/for_loop.pdf",
@@ -176,7 +178,6 @@
     "java/java-basics/images/loop-3.png",
     "java/java-basics/images/loop-2.png",
     "java/java-basics/images/loop-1.png",
-    "backend/nodejs/google-auth-using-passport.md",
     "java/java-oops/images/java-class-heirarchy-1.png",
     "java/java-oops/images/image-1.png",
     "java/java-oops/static_keyword.md",
@@ -207,7 +208,6 @@
     "backend/nodejs/setup_js.md",
     "shell-scripting/errors/bad_substitution.md",
     "shell-scripting/EOF.md",
-    "linux/errors/shell-scripting/bad_substitution.md",
     "shell-scripting/errors",
     "shell-scripting/errors",
     "shell-scripting"

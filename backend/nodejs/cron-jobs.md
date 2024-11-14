@@ -1,6 +1,7 @@
 ## Credit system using `node-cron` package
 - **cron syntax**
-	- 
+	- Allowed 
+![[cron-jobs-allowed-fields.png]]
 ```js
 export const startCreditScheduler = () => {
 
