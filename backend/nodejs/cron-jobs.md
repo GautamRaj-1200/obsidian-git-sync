@@ -3,6 +3,15 @@
 	- *Allowed Fields*
 	 ![[cron-jobs-allowed-fields.png]]
 	 - *Allowed Values*
+| Field          | Value                                    |
+|----------------|------------------------------------------|
+| Second         | 0-59                                     |
+| Minute         | 0-59                                     |
+| Hour           | 0-23                                     |
+| Day of Month   | 1-31                                     |
+| Month          | 1-12 (or names)                         |
+| Day of Week    | 0-7 (or names, 0 or 7 are Sunday)       |
+
 ```js
 export const startCreditScheduler = () => {
 
