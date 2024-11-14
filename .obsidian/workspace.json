@@ -11,12 +11,14 @@
             "id": "75f20e55aaec5e03",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "backend/nodejs/cron-jobs/npmjs.com-node-cron - npm.pdf"
+                "file": "to-read/js.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "npmjs.com-node-cron - npm"
+              "icon": "lucide-file",
+              "title": "js"
             }
           }
         ]
@@ -161,10 +163,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cdb48516a0915393",
+  "active": "75f20e55aaec5e03",
   "lastOpenFiles": [
-    "cron-jobs-allowed-fields.png",
     "backend/nodejs/cron-jobs/npmjs.com-node-cron - npm.pdf",
+    "to-read/js.md",
+    "to-read",
+    "cron-jobs-allowed-fields.png",
     "backend/nodejs/cron-jobs/credit_system_scheduler.md",
     "backend/nodejs/cron-jobs",
     "backend/nodejs/google-auth-using-passport.md",
@@ -205,8 +209,6 @@
     "backend/nodejs/directory_structure_script.md",
     "prep-for-fast-dev/checklist.md",
     "backend/nodejs/setup_ts.md",
-    "backend/nodejs/setup_js.md",
-    "shell-scripting/errors/bad_substitution.md",
-    "shell-scripting/errors"
+    "backend/nodejs/setup_js.md"
   ]
 }
