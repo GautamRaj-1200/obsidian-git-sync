@@ -11,14 +11,12 @@
             "id": "75f20e55aaec5e03",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "backend/nodejs/cron-jobs/credit_system_scheduler.md",
-                "mode": "source",
-                "source": false
+                "file": "backend/nodejs/cron-jobs/npmjs.com-node-cron - npm.pdf"
               },
-              "icon": "lucide-file",
-              "title": "credit_system_scheduler"
+              "icon": "lucide-file-text",
+              "title": "npmjs.com-node-cron - npm"
             }
           }
         ]
@@ -165,8 +163,8 @@
   },
   "active": "75f20e55aaec5e03",
   "lastOpenFiles": [
-    "backend/nodejs/cron-jobs/npmjs.com-node-cron - npm.pdf",
     "backend/nodejs/cron-jobs/credit_system_scheduler.md",
+    "backend/nodejs/cron-jobs/npmjs.com-node-cron - npm.pdf",
     "backend/nodejs/cron-jobs",
     "backend/nodejs/google-auth-using-passport.md",
     "backend/nodejs/cron-jobs.md",
