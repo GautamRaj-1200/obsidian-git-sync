@@ -1,3 +1,4 @@
+## First Way
 ```js
 const mongoose = require('mongoose');
 
@@ -138,3 +139,26 @@ class CreditManager {
 
 module.exports = CreditManager;
 ```
+This implementation provides a complete monthly credit system with the following features:
+
+1. Monthly credit allowance that resets automatically
+2. Credit usage tracking
+3. Credit history
+4. Automatic monthly resets
+5. Error handling
+
+Here's how to use it:
+```js
+// Initialize credits for a new user
+await CreditManager.initializeCredits(userId, 100); // 100 credits per month
+
+// Use credits
+await CreditManager.useCredits(userId, 10, 'API call');
+
+// Check current balance
+const balance = await CreditManager.getCredits(userId);
+
+// Get credit history
+const history = await CreditManager.getCreditHistory(userId);
+```
+
