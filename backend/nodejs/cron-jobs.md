@@ -6,35 +6,33 @@ export const startCreditScheduler = () => {
 
 cron.schedule("0 0 1 * *", async () => {
 
-console.log("Refreshing credits for all users");
-
-  
-
-// Get All Users
-
-const users = await User.find();
-
-  
-
-// For every user update the credit, if lastCreditRefresh date and present date has difference of more than or equal to 1 month
-
-users.forEach(async (user) => {
-
-if (dayjs().diff(user.lastCreditRefresh, "month") >= 1) {
-
-user.credits = 5;
-
-user.lastCreditRefresh = new Date();
-
-await user.save();
-
-}
-
-})
-
-console.log("Credits refreshed for all users");
-
-})
+	console.log("Refreshing credits for all users");
+	
+	// Get All Users
+	
+	const users = await User.find();
+	
+	  
+	
+	// For every user update the credit, if lastCreditRefresh date and present date has difference of more than or equal to 1 month
+	
+	users.forEach(async (user) => {
+	
+	if (dayjs().diff(user.lastCreditRefresh, "month") >= 1) {
+	
+	user.credits = 5;
+	
+	user.lastCreditRefresh = new Date();
+	
+	await user.save();
+	
+	}
+	
+	})
+	
+	console.log("Credits refreshed for all users");
+	
+	})
 
 }
 ```
