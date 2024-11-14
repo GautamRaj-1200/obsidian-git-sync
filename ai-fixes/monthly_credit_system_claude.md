@@ -172,3 +172,33 @@ const history = await CreditManager.getCreditHistory(userId);
 ```js
 
 ```
+In this enhanced version, I've implemented several design patterns:
+
+1. **Singleton Pattern**
+    - Used for the `CreditManager` class
+    - Ensures only one instance of the credit manager exists
+    - Controls global state and operations
+2. **Factory Pattern**
+    - `creditOperationFactory` creates different types of credit operations
+    - Encapsulates object creation logic
+    - Makes adding new operation types easier
+3. **Observer Pattern**
+    - Implemented through `CreditObserver` interface
+    - Allows multiple observers (Logger, NotificationService) to react to credit changes
+    - Decouples credit operations from notification logic
+4. **Strategy Pattern**
+    - Different credit calculation strategies (Standard, Premium)
+    - Allows for easy addition of new calculation methods
+    - Can be switched at runtime
+5. **Repository Pattern**
+    - Abstracts data access logic
+    - Makes the code more testable
+    - Separates business logic from data access
+
+Benefits of using these patterns:
+
+1. **Loose Coupling**: Components are independent and can be modified without affecting others
+2. **Easy to Extend**: New features can be added by implementing new strategies or observers
+3. **Maintainable**: Clear separation of concerns makes the code easier to maintain
+4. **Testable**: Components can be tested in isolation
+5. **Flexible**: Business rules can be changed by adding new strategies or observers
