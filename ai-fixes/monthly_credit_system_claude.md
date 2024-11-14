@@ -162,3 +162,13 @@ const balance = await CreditManager.getCredits(userId);
 const history = await CreditManager.getCreditHistory(userId);
 ```
 
+### Add additional features like:
+- Credit expiration
+- Rollover credits
+- Different credit tiers
+- Usage analytics
+
+### Second way - With Design Patterns
+```js
+
+```
