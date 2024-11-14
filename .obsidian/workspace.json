@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "backend/nodejs/cron-jobs.md",
+                "file": "backend/nodejs/google-auth-using-passport.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "cron-jobs"
+              "title": "google-auth-using-passport"
             }
           }
         ]
@@ -165,9 +165,9 @@
   },
   "active": "75f20e55aaec5e03",
   "lastOpenFiles": [
+    "backend/nodejs/cron-jobs.md",
     "cron-jobs-allowed-fields.png",
     "backend/nodejs/google-auth-using-passport.md",
-    "backend/nodejs/cron-jobs.md",
     "java/java-basics/loops_in_java.md",
     "java/java-basics/for_loop.pdf",
     "java/java-basics/loops_in_java.pdf",
@@ -197,7 +197,6 @@
     "java/java-oops/00_order_of_study.md",
     "java/java-oops",
     "java/java-basics/images/image-3.png",
-    "java/java-basics/images/image-2.png",
     "java/java-basics/images",
     "java/java-basics/conditionals_in_java.md",
     "java/java-basics",
