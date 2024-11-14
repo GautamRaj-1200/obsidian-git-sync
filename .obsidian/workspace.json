@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "backend/nodejs/google-auth-using-passport.md",
+                "file": "backend/nodejs/cron-jobs/credit_system_scheduler.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "google-auth-using-passport"
+              "title": "credit_system_scheduler"
             }
           }
         ]
@@ -165,9 +165,12 @@
   },
   "active": "75f20e55aaec5e03",
   "lastOpenFiles": [
+    "backend/nodejs/cron-jobs/npmjs.com-node-cron - npm.pdf",
+    "backend/nodejs/cron-jobs/credit_system_scheduler.md",
+    "backend/nodejs/cron-jobs",
+    "backend/nodejs/google-auth-using-passport.md",
     "backend/nodejs/cron-jobs.md",
     "cron-jobs-allowed-fields.png",
-    "backend/nodejs/google-auth-using-passport.md",
     "java/java-basics/loops_in_java.md",
     "java/java-basics/for_loop.pdf",
     "java/java-basics/loops_in_java.pdf",
@@ -206,9 +209,6 @@
     "backend/nodejs/setup_ts.md",
     "backend/nodejs/setup_js.md",
     "shell-scripting/errors/bad_substitution.md",
-    "shell-scripting/EOF.md",
-    "shell-scripting/errors",
-    "shell-scripting/errors",
-    "shell-scripting"
+    "shell-scripting/errors"
   ]
 }
