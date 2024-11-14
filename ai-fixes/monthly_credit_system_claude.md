@@ -170,7 +170,186 @@ const history = await CreditManager.getCreditHistory(userId);
 
 ### Second way - With Design Patterns
 ```js
+// Singleton Pattern for CreditManager
+class CreditManager {
+  private static instance: CreditManager;
+  private constructor() {}
 
+  public static getInstance(): CreditManager {
+    if (!CreditManager.instance) {
+      CreditManager.instance = new CreditManager();
+    }
+    return CreditManager.instance;
+  }
+
+  // Factory Pattern for creating different types of credit operations
+  private creditOperationFactory = {
+    add: (amount: number, description: string) => ({
+      amount,
+      operation: 'add',
+      timestamp: new Date(),
+      description
+    }),
+    subtract: (amount: number, description: string) => ({
+      amount,
+      operation: 'subtract',
+      timestamp: new Date(),
+      description
+    }),
+    reset: (amount: number) => ({
+      amount,
+      operation: 'reset',
+      timestamp: new Date(),
+      description: 'Monthly credit reset'
+    })
+  };
+
+  // Observer Pattern for credit changes
+  private observers: CreditObserver[] = [];
+
+  public addObserver(observer: CreditObserver): void {
+    this.observers.push(observer);
+  }
+
+  private notifyObservers(userId: string, credits: number, operation: string): void {
+    this.observers.forEach(observer => observer.update(userId, credits, operation));
+  }
+}
+
+// Strategy Pattern for different credit calculation strategies
+interface CreditCalculationStrategy {
+  calculateCredits(baseAmount: number): number;
+}
+
+class StandardCreditStrategy implements CreditCalculationStrategy {
+  calculateCredits(baseAmount: number): number {
+    return baseAmount;
+  }
+}
+
+class PremiumCreditStrategy implements CreditCalculationStrategy {
+  calculateCredits(baseAmount: number): number {
+    return baseAmount * 1.5;
+  }
+}
+
+// Observer Pattern Interface
+interface CreditObserver {
+  update(userId: string, credits: number, operation: string): void;
+}
+
+// Example observer for logging
+class CreditLogger implements CreditObserver {
+  update(userId: string, credits: number, operation: string): void {
+    console.log(`Credit Update - User: ${userId}, Credits: ${credits}, Operation: ${operation}`);
+  }
+}
+
+// Example observer for notifications
+class NotificationService implements CreditObserver {
+  update(userId: string, credits: number, operation: string): void {
+    if (credits < 10) {
+      this.sendLowCreditsNotification(userId, credits);
+    }
+  }
+
+  private sendLowCreditsNotification(userId: string, credits: number): void {
+    console.log("Low credits notification sent to user ${userId}. Remaining: ${credits}");
+  }
+}
+
+// Repository Pattern for data access
+class CreditRepository {
+  async findByUserId(userId: string): Promise<any> {
+    return await UserCredit.findOne({ userId });
+  }
+
+  async save(creditData: any): Promise<any> {
+    return await creditData.save();
+  }
+}
+
+// Main Credit Service implementing the patterns
+class CreditService {
+  private creditManager: CreditManager;
+  private creditStrategy: CreditCalculationStrategy;
+  private repository: CreditRepository;
+
+  constructor(
+    creditStrategy: CreditCalculationStrategy = new StandardCreditStrategy(),
+    repository: CreditRepository = new CreditRepository()
+  ) {
+    this.creditManager = CreditManager.getInstance();
+    this.creditStrategy = creditStrategy;
+    this.repository = repository;
+
+    // Add observers
+    this.creditManager.addObserver(new CreditLogger());
+    this.creditManager.addObserver(new NotificationService());
+  }
+
+  async initializeCredits(userId: string, monthlyAllowance: number): Promise<any> {
+    try {
+      const calculatedCredits = this.creditStrategy.calculateCredits(monthlyAllowance);
+      
+      const userCredit = new UserCredit({
+        userId,
+        credits: calculatedCredits,
+        monthlyAllowance: calculatedCredits,
+        lastResetDate: new Date(),
+        creditHistory: [
+          this.creditManager['creditOperationFactory'].add(
+            calculatedCredits, 
+            'Initial credit allocation'
+          )
+        ]
+      });
+
+      const savedCredit = await this.repository.save(userCredit);
+      this.creditManager['notifyObservers'](userId, calculatedCredits, 'initialize');
+      return savedCredit;
+    } catch (error) {
+      throw new Error(`Failed to initialize credits: ${error.message}`);
+    }
+  }
+
+  async useCredits(userId: string, amount: number, description: string): Promise<any> {
+    try {
+      await this.checkAndResetMonthlyCredits(userId);
+      
+      const userCredit = await this.repository.findByUserId(userId);
+      if (!userCredit) throw new Error('User credit account not found');
+      
+      if (userCredit.credits < amount) {
+        throw new Error('Insufficient credits');
+      }
+
+      userCredit.credits -= amount;
+      userCredit.creditHistory.push(
+        this.creditManager['creditOperationFactory'].subtract(amount, description)
+      );
+
+      const savedCredit = await this.repository.save(userCredit);
+      this.creditManager['notifyObservers'](userId, userCredit.credits, 'use');
+      return savedCredit;
+    } catch (error) {
+      throw new Error(`Failed to use credits: ${error.message}`);
+    }
+  }
+
+  // ... rest of the methods
+}
+
+// Usage example
+async function main() {
+  // Initialize with standard credit strategy
+  const standardCreditService = new CreditService();
+  await standardCreditService.initializeCredits('user1', 100);
+
+  // Initialize with premium credit strategy
+  const premiumCreditService = new CreditService(new PremiumCreditStrategy());
+  await premiumCreditService.initializeCredits('user2', 100); // Will get 150 credits
+}
 ```
 In this enhanced version, I've implemented several design patterns:
 
