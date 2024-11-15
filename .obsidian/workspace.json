@@ -165,8 +165,9 @@
   },
   "active": "68629c85ea457b2a",
   "lastOpenFiles": [
-    "ai-fixes/monthly_credit_system_claude.md",
+    "to-read/css.md",
     "to-read/js.md",
+    "ai-fixes/monthly_credit_system_claude.md",
     "ai-fixes",
     "backend/nodejs/cron-jobs/npmjs.com-node-cron - npm.pdf",
     "to-read",
@@ -209,7 +210,6 @@
     "java/java-basics",
     "backend/nodejs/directory_structure_script.md",
     "prep-for-fast-dev/checklist.md",
-    "backend/nodejs/setup_ts.md",
-    "backend/nodejs/setup_js.md"
+    "backend/nodejs/setup_ts.md"
   ]
 }
