@@ -1,1 +1,1 @@
-- Create a script that creates folder/routes structure for react-router dom . Provide the name and it will generate folders and files.
+- Create a script that creates folder/routes structure for react-router dom . Provide the name and it will generate folders and files with basic boilerplate code.
