@@ -1,0 +1,1 @@
+- Create a script that creates folder/routes structure for react-router dom . Provide the name and it will gen

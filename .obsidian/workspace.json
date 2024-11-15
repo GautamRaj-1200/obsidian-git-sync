@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "to-read/js.md",
+                "file": "todo/shell_scripting.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "js"
+              "title": "shell_scripting"
             }
           }
         ]
@@ -165,8 +165,10 @@
   },
   "active": "68629c85ea457b2a",
   "lastOpenFiles": [
-    "to-read/css.md",
     "to-read/js.md",
+    "todo/shell_scripting.md",
+    "todo",
+    "to-read/css.md",
     "ai-fixes/monthly_credit_system_claude.md",
     "ai-fixes",
     "backend/nodejs/cron-jobs/npmjs.com-node-cron - npm.pdf",
@@ -207,9 +209,7 @@
     "java/java-basics/images/image-3.png",
     "java/java-basics/images",
     "java/java-basics/conditionals_in_java.md",
-    "java/java-basics",
     "backend/nodejs/directory_structure_script.md",
-    "prep-for-fast-dev/checklist.md",
-    "backend/nodejs/setup_ts.md"
+    "prep-for-fast-dev/checklist.md"
   ]
 }
