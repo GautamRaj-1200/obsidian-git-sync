@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "todo/shell_scripting.md",
+                "file": "backend/auth/auth.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "shell_scripting"
+              "title": "auth"
             }
           }
         ]
@@ -165,8 +165,8 @@
   },
   "active": "68629c85ea457b2a",
   "lastOpenFiles": [
-    "to-read/js.md",
     "todo/shell_scripting.md",
+    "to-read/js.md",
     "todo",
     "to-read/css.md",
     "ai-fixes/monthly_credit_system_claude.md",
