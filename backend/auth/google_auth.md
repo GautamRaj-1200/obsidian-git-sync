@@ -1,2 +1,4 @@
 ## Using Passport
-- Get 
+### 
+- Get client Id and Secret from Google Developer Console
+- 
