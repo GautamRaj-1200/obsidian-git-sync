@@ -12,3 +12,6 @@
 			- Define a callback function to handle the logic after Google returns the user's profile data.
 		- Callback Function execution
 			- Input `accessToken`,`refreshToken`, `profile` and `done`
+		- Fetch or create user
+			- Attempt to find an existing user in the database based on `profile.id`:
+				- Call `User.findOne` with `{ googleId: profile.id }`.
