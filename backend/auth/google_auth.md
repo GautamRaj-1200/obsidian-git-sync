@@ -6,4 +6,4 @@
 		- `import passport from "passport"`
 		- `import OAuth2 from "passport-google-oauth2"`
 		- `const OAuth2Strategy = OAuth2.Strategy;`
-	- Create a function to configure passport with Google 
+	- Create a function to configure passport with Google OAuth 2.0 strategy and handle user serialization and deserialization
