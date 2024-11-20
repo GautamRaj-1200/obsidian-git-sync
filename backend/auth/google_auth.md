@@ -11,4 +11,4 @@
 			- Accept `clientID`, `clientSecret`,`callbackURL` and `scope`
 			- Define a callback function to handle the logic after Google returns the user's profile data.
 		- Callback Function execution
-			- Input `accessToken`,`refreshToken`, ``
+			- Input `accessToken`,`refreshToken`, `profile` and `done`
