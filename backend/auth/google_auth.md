@@ -10,17 +10,17 @@
 		1. Initialize OAuth2 Strategy with client credentials and callback URL.
 		2. Define the callback function:
 	    Input: accessToken, refreshToken, profile, done.
-	3. Attempt to find a user:
-	    user = User.findOne({ googleId: profile.id })
-	4. If user exists:
-	    Call done(null, user)
-	5. If user does not exist:
-	    Create a new user object:
-	        googleId = profile.id
-	        displayName = profile.displayName
-	        email = profile.emails[0].value
-	        image = profile.photos[0].value
-	    Save the user to the database.
-	    Call done(null, user)
-	6. Handle errors:
-	    If an error occurs, call done(error, null).
+		3. Attempt to find a user:
+		    user = User.findOne({ googleId: profile.id })
+		4. If user exists:
+		    Call done(null, user)
+		5. If user does not exist:
+		    Create a new user object:
+		        googleId = profile.id
+		        displayName = profile.displayName
+		        email = profile.emails[0].value
+		        image = profile.photos[0].value
+		    Save the user to the database.
+		    Call done(null, user)
+		6. Handle errors:
+		    If an error occurs, call done(error, null).
