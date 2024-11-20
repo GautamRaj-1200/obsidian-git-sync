@@ -8,4 +8,7 @@
 		- `const OAuth2Strategy = OAuth2.Strategy;`
 	- Create a function to configure passport with Google OAuth 2.0 strategy and handle user serialization and deserialization
 		- Initialize the OAuth2 strategy:
-			- Accept `clientID`, `clientSecret`,`callbackURL`
+			- Accept `clientID`, `clientSecret`,`callbackURL` and `scope`
+			- Define a callback function to handle the logic after Google returns the user's profile data.
+		- Callback Function execution
+			- Input `accessToken`,`refreshToken`, ``
