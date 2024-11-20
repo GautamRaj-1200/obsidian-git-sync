@@ -8,7 +8,8 @@
 		- `const OAuth2Strategy = OAuth2.Strategy;`
 	- Create a function to configure passport with Google OAuth 2.0 strategy and handle user serialization and deserialization
 		1. Initialize OAuth2 Strategy with client credentials and callback URL.
-		2. Define the callback function:
+		2. 
+		3. Define the callback function:
 	    Input: accessToken, refreshToken, profile, done.
 		3. Attempt to find a user:
 		    user = User.findOne({ googleId: profile.id })
