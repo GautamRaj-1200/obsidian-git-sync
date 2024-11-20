@@ -7,21 +7,20 @@
 		- `import OAuth2 from "passport-google-oauth2"`
 		- `const OAuth2Strategy = OAuth2.Strategy;`
 	- Create a function to configure passport with Google OAuth 2.0 strategy and handle user serialization and deserialization
-		- Initialize the OAuth2 strategy:
-			- Accept `clientID`, `clientSecret`,`callbackURL` and `scope`
-			- Define a callback function to handle the logic after Google returns the user's profile data.
-		- Callback Function execution
-			- Input `accessToken`,`refreshToken`, `profile` and `done`
-		- Fetch or create user
-			- Attempt to find an existing user in the database based on `profile.id`:
-				- Call `User.findOne` with `{ googleId: profile.id }`.
-		- **Check if the User Exists:**
-		- **Case 1**: User exists:
-		    - Retrieve the user and pass it to the `done` function.
-		- **Case 2**: User does not exist:
-		    - Create a new user object:
-		        - Assign `googleId` to `profile.id`.
-		        - Assign `displayName` to `profile.displayName`.
-		        - Assign `email` to the first email in `profile.emails[0].value`.
-		        - Assign `image` to the first profile picture URL in `profile.photos[0].value`.
-		    - Save the new user to the database using `user.save()`.
+		1. Initialize OAuth2 Strategy with client credentials and callback URL.
+		2. Define the callback function:
+	    Input: accessToken, refreshToken, profile, done.
+	3. Attempt to find a user:
+	    user = User.findOne({ googleId: profile.id })
+	4. If user exists:
+	    Call done(null, user)
+	5. If user does not exist:
+	    Create a new user object:
+	        googleId = profile.id
+	        displayName = profile.displayName
+	        email = profile.emails[0].value
+	        image = profile.photos[0].value
+	    Save the user to the database.
+	    Call done(null, user)
+	6. Handle errors:
+	    If an error occurs, call done(error, null).
