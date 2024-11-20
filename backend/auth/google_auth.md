@@ -3,6 +3,7 @@
 	- 
 2. Step - 2 : configure passport
 	- Required packages: `passport` and `passport-google-oauth2`
-	- `import passport from "passport"`
-	- `import OAuth2 from "passport-google-oauth2"`
-	- `const OAuth2Strategy = OAuth2.Strategy;`
+		- `import passport from "passport"`
+		- `import OAuth2 from "passport-google-oauth2"`
+		- `const OAuth2Strategy = OAuth2.Strategy;`
+	- Create a function to configure passport with Google 
