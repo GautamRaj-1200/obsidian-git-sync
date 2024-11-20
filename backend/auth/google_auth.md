@@ -15,3 +15,13 @@
 		- Fetch or create user
 			- Attempt to find an existing user in the database based on `profile.id`:
 				- Call `User.findOne` with `{ googleId: profile.id }`.
+		- **Check if the User Exists:**
+		- **Case 1**: User exists:
+		    - Retrieve the user and pass it to the `done` function.
+		- **Case 2**: User does not exist:
+		    - Create a new user object:
+		        - Assign `googleId` to `profile.id`.
+		        - Assign `displayName` to `profile.displayName`.
+		        - Assign `email` to the first email in `profile.emails[0].value`.
+		        - Assign `image` to the first profile picture URL in `profile.photos[0].value`.
+		    - Save the new user to the database using `user.save()`.
