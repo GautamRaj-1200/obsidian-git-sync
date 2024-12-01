@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "frontend/google-fonts.md",
+                "file": "linux/updating_softwares.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "google-fonts"
+              "title": "updating_softwares"
             }
           }
         ]
@@ -163,8 +163,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cdb48516a0915393",
+  "active": "68629c85ea457b2a",
   "lastOpenFiles": [
+    "frontend/google-fonts.md",
     "backend/auth/google_auth.md",
     "backend/auth/auth.md",
     "todo/shell_scripting.md",
@@ -209,7 +210,6 @@
     "java/java-oops/00_order_of_study.md",
     "java/java-oops",
     "java/java-basics/images/image-3.png",
-    "java/java-basics/images",
-    "java/java-basics/conditionals_in_java.md"
+    "java/java-basics/images"
   ]
 }
