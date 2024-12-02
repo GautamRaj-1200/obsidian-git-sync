@@ -50,7 +50,19 @@
 3. **JavaScript Handlers:**
     - Event listeners are added to handle each drag event.
     - Example:
-        const dropZone = document.getElementById('dropZone'); dropZone.addEventListener('dragover', (e) => {     e.preventDefault(); // Prevent default behavior to allow drops     dropZone.style.backgroundColor = 'lightblue'; // Visual cue });  dropZone.addEventListener('drop', (e) => {     e.preventDefault();     const files = e.dataTransfer.files; // Access the dropped files     console.log(files); });
+```js
+const dropZone = document.getElementById('dropZone');
+dropZone.addEventListener('dragover', (e) => {
+    e.preventDefault(); // Prevent default behavior to allow drops
+    dropZone.style.backgroundColor = 'lightblue'; // Visual cue
+});
+
+dropZone.addEventListener('drop', (e) => {
+    e.preventDefault();
+    const files = e.dataTransfer.files; // Access the dropped files
+    console.log(files);
+});
+```
         
 4. **File Handling:**
     
