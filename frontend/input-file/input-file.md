@@ -4,4 +4,8 @@
 
 ## Q. What are the things we can do once file(s) is chosen?
 ### A. Two things:
-- Upload to a server using 
+- Upload to a server using **Form Submission**
+- Manipulate using JS Code and the **FILE API**
+
+## Q. How to specify files type to accept?
+### A. Using 
