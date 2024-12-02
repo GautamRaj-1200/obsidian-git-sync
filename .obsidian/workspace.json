@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "frontend/upload-progress-file/calculate-upload-progress-file.md",
+                "file": "games/steamgames.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "calculate-upload-progress-file"
+              "title": "steamgames"
             }
           }
         ]
@@ -163,10 +163,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cdb48516a0915393",
+  "active": "fc7a16f1d8bc45c7",
   "lastOpenFiles": [
-    "frontend/drag-and-drop/drag_and_drop_js.md",
     "frontend/upload-progress-file/calculate-upload-progress-file.md",
+    "frontend/drag-and-drop/drag_and_drop_js.md",
     "frontend/upload-progress-file",
     "frontend/Untitled.md",
     "frontend/input-file/input-file.md",
