@@ -28,6 +28,8 @@
 - The following information is contained in each File object
 	- `name`: the file's name
 	- `size`: the size of file in **bytes**
+	- `type`: the file's MIME type
+	- `lastModified`: A number specifying the date and time at which the file was last modified, in milliseconds since the UNIX epoch (January 1, 1970, at midnight).
 ## Q. When we select a file, it's path is contained in the value attribute? Isn't it a security concern? How is it handled?
 ### A. Yes, when a user selects a file through an HTML `<input type="file">` form, the file path (or file name) is initially included in the `value` attribute of the input field. However, this **file path** behavior has been a source of concern, and modern browsers have implemented measures to mitigate the associated security risks.
 
