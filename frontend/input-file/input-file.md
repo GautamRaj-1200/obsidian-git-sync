@@ -30,3 +30,4 @@ To mitigate these risks, modern browsers **sanitize** the file path and only exp
     - Browsers have deliberately disabled the ability for websites to access the real file path to enhance privacy and security. The `value` attribute of the `<input type="file">` element only contains the file name (or a sanitized fake path), not the entire file system path.
 3. **File Name Exposure:**
     - While the actual path is hidden, the **file name** is still exposed. This is important because the server needs to know what file the user has selected to properly process the upload. However, the file name alone does not provide any information about where the file resides on the user's computer.
+
