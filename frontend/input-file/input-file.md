@@ -10,4 +10,7 @@
 ## Q. How to specify files type to accept?
 ### A. Using `accept` attribute
 
-## Q. What does the value attribut
+## Q. What does the value attribute of a file input type contain?
+### A. A string that represents the path of the selected file(s)
+- Empty "" if no file is selected.
+- When multiple files is selected
