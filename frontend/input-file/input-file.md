@@ -14,4 +14,6 @@
 ### A. A string that represents the path of the selected file(s)
 - Empty "" if no file is selected.
 - When multiple files is selected the ***value represents the first file*** in the list.
-- To identify and access other files: **FILE API needs to be used**: Ise `HTMLInputElement.files` property
+- To identify and access other files: **FILE API needs to be used**: Use `HTMLInputElement.files` property
+
+## Q. When we s
