@@ -13,6 +13,7 @@
 - Ex: `accept=".doc,.docx,.xml,application/msword"`
 - Ex: `accept=".pdf"`
 - Ex: `accept=".doc"`
+- Ex: `accept="image/png` 
 - Ex: `accept="image/* , .pdf"` - _image/ *: means any image file_
 ## Q. How to allow users to select more than 1 file?
 ### A. Using `multiple` attribute
