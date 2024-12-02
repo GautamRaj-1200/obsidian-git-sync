@@ -9,8 +9,10 @@
 
 ## Q. How to specify files type to accept?
 ### A. Using `accept` attribute
-- Using a comma separated string list
-- Ex: `.doc,.docx,.xml,application/msword`
+- Using a comma separated string list of unique file type specifiers
+- Ex: `accept=".doc,.docx,.xml,application/msword"`
+- Ex: `accept=".pdf`
+- Ex: `.doc`
 
 ## Q. How to allow users to select more than 1 file?
 ### A. Using `multiple` attribute
