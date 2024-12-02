@@ -65,16 +65,13 @@ dropZone.addEventListener('drop', (e) => {
 ```
         
 4. **File Handling:**
-    
     - Use the **File API** to process dropped files.
     - Example:
-        
-        javascript
-        
-        Copy code
-        
-        ``Array.from(files).forEach(file => {     console.log(`Name: ${file.name}, Size: ${file.size}`); });``
-        
+```js
+Array.from(files).forEach(file => {
+    console.log(`Name: ${file.name}, Size: ${file.size}`);
+});
+```
 
 ---
 
