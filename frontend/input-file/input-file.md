@@ -1,12 +1,12 @@
 ## Q. How can you input a file or files in html
 ### A. Using `<input type="file">`
 - It lets user choose one or more files.
-
+___
 ## Q. What are the things we can do once file(s) is chosen?
 ### A. Two things:
 - Upload to a server using **Form Submission**
 - Manipulate using JS Code and the **FILE API**
-
+___
 ## Q. How to specify files type to accept?
 ### A. Using `accept` attribute
 - Using a comma separated string list of unique file type specifiers
