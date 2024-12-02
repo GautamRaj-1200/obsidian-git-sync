@@ -47,3 +47,6 @@ To mitigate these risks, modern browsers **sanitize** the file path and only exp
 3. **File Name Exposure:**
     - While the actual path is hidden, the **file name** is still exposed. This is important because the server needs to know what file the user has selected to properly process the upload. However, the file name alone does not provide any information about where the file resides on the user's computer.
 
+## Styling file input
+- By default, it does not look great.
+- So what we do is we add a layer over this using absolute 
