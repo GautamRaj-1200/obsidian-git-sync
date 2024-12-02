@@ -10,8 +10,9 @@
 ## Q. How to specify files type to accept?
 ### A. Using `accept` attribute
 - Using a comma separated string list
-- Ex: `.doc,.docx,.xml,app`
+- Ex: `.doc,.docx,.xml,application/msword`
 
+## Q. How to 
 ## Q. What does the value attribute of a file input type contain?
 ### A. A string that represents the path of the selected file(s)
 - Empty "" if no file is selected.
