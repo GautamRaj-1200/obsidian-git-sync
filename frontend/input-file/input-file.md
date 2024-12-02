@@ -12,13 +12,14 @@
 - Using a comma separated string list
 - Ex: `.doc,.docx,.xml,application/msword`
 
-## Q. How to 
+## Q. How to allow users to select more than 1 file?
+### A. Using `multiple` attribute
+- When the [`multiple`](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/multiple) Boolean attribute is specified, the file input allows the user to select more than one file.
 ## Q. What does the value attribute of a file input type contain?
 ### A. A string that represents the path of the selected file(s)
 - Empty "" if no file is selected.
 - When multiple files is selected the ***value represents the first file*** in the list.
 - To identify and access other files: **FILE API needs to be used**: Use `HTMLInputElement.files` property
-
 ## Q. When we select a file, it's path is contained in the value attribute? Isn't it a security concern? How is it handled?
 ### A. Yes, when a user selects a file through an HTML `<input type="file">` form, the file path (or file name) is initially included in the `value` attribute of the input field. However, this **file path** behavior has been a source of concern, and modern browsers have implemented measures to mitigate the associated security risks.
 
