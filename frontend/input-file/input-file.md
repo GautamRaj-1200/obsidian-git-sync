@@ -8,4 +8,6 @@
 - Manipulate using JS Code and the **FILE API**
 
 ## Q. How to specify files type to accept?
-### A. Using 
+### A. Using `accept` attribute
+
+## Q. What does the value attribut
