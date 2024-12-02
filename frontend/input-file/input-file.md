@@ -17,11 +17,16 @@
 - To identify and access other files: **FILE API needs to be used**: Use `HTMLInputElement.files` property
 
 ## Q. When we select a file, it's path is contained in the value attribute? Isn't it a security concern? How is it handled?
-- To mitigate these risks, modern browsers **sanitize** the file path and only expose the **file name**, effectively blocking the ability to see the actual path.
-1. **Fake Path (`C:\fakepath\` or similar):**    
+### A. Yes, when a user selects a file through an HTML `<input type="file">` form, the file path (or file name) is initially included in the `value` attribute of the input field. However, this **file path** behavior has been a source of concern, and modern browsers have implemented measures to mitigate the associated security risks.
+
+To mitigate these risks, modern browsers **sanitize** the file path and only expose the **file name**, effectively blocking the ability to see the actual path.
+1. **Fake Path (`C:\fakepath\` or similar):**
     - Instead of returning the actual file path, browsers return a fake path, such as `C:\fakepath\fileName.ext`, where `fileName.ext` is the actual name of the file the user selected. This prevents websites from seeing where the file is stored on the user's system.
     - **For example:**
-        
         - **Before sanitization:** `C:\Users\John\Documents\Files\myphoto.png`
         - **After sanitization:** `C:\fakepath\myphoto.png`
     - This ensures that only the file name is visible, and not its directory structure.
+2. **No Access to File Path:**
+    - Browsers have deliberately disabled the ability for websites to access the real file path to enhance privacy and security. The `value` attribute of the `<input type="file">` element only contains the file name (or a sanitized fake path), not the entire file system path.
+3. **File Name Exposure:**
+    - While the actual path is hidden, the **file name** is still exposed. This is important because the server needs to know what file the user has selected to properly process the upload. However, the file name alone does not provide any information about where the file resides on the user's computer.
