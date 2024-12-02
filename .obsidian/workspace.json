@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "frontend/input-file/input-file.md",
+                "file": "frontend/drag-and-drop/drag_and_drop_js.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "input-file"
+              "title": "drag_and_drop_js"
             }
           }
         ]
@@ -163,11 +163,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fc7a16f1d8bc45c7",
+  "active": "cdb48516a0915393",
   "lastOpenFiles": [
+    "frontend/input-file/input-file.md",
     "frontend/google-fonts.md",
     "frontend/drag-and-drop/drag_and_drop_js.md",
-    "frontend/input-file/input-file.md",
     "frontend/formdata/FormData.md",
     "frontend/input-file",
     "frontend/Untitled.md",

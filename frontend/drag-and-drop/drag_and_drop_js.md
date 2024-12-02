@@ -36,10 +36,8 @@
 ### A. Four main components:
 
 1. **Draggable Area:**
-    
     - A specific HTML element that acts as the target area for file drops.
     - Example:
-        
         html
         
         Copy code
