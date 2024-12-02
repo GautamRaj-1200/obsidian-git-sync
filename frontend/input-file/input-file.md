@@ -16,4 +16,4 @@
 - When multiple files is selected the ***value represents the first file*** in the list.
 - To identify and access other files: **FILE API needs to be used**: Use `HTMLInputElement.files` property
 
-## Q. When we s
+## Q. When we select a file, it's path is contained in the value attribute? Isn't it a security concern? How is it handled?
