@@ -49,4 +49,4 @@ To mitigate these risks, modern browsers **sanitize** the file path and only exp
 
 ## Styling file input
 - By default, it does not look great.
-- So what we do is we add a layer over this using absolute 
+- So what we do is we add a layer over this using absolute positioning and design the upper layer and keep its pointer events to none.
