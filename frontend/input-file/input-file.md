@@ -49,4 +49,6 @@ To mitigate these risks, modern browsers **sanitize** the file path and only exp
 
 ## Styling file input
 - By default, it does not look great.
-- So what we do is we add a layer over this using absolute positioning and design the upper layer and keep its pointer events to none.
+- So, we do the following:
+-  **Custom Layer:** We create a custom button or layer above the file input using absolute positioning, effectively hiding the default input.
+- **Pointer Events:** We set `pointer-events: none` on the custom layer so that interactions with the file input are passed through to the actual file input, allowing the file selection to function as normal.
