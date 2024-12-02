@@ -24,7 +24,10 @@
 - To identify and access other files: **FILE API needs to be used**: Use `HTMLInputElement.files` property
 
 ## Q. How to access different information of a file, such as it's name, size etc?
-### A. File object co
+### A. File object contains these information
+- The following information is contained in each File object
+	- `name`: the file's name
+	- `size`: the size of file in **bytes**
 ## Q. When we select a file, it's path is contained in the value attribute? Isn't it a security concern? How is it handled?
 ### A. Yes, when a user selects a file through an HTML `<input type="file">` form, the file path (or file name) is initially included in the `value` attribute of the input field. However, this **file path** behavior has been a source of concern, and modern browsers have implemented measures to mitigate the associated security risks.
 
