@@ -11,8 +11,9 @@
 ### A. Using `accept` attribute
 - Using a comma separated string list of unique file type specifiers
 - Ex: `accept=".doc,.docx,.xml,application/msword"`
-- Ex: `accept=".pdf`
-- Ex: `.doc`
+- Ex: `accept=".pdf"`
+- Ex: `accept=".doc"`
+- Ex: `accept="image/* , .pdf"` - 
 
 ## Q. How to allow users to select more than 1 file?
 ### A. Using `multiple` attribute
