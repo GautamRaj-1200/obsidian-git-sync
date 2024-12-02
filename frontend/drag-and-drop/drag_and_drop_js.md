@@ -77,16 +77,7 @@ Array.from(files).forEach(file => {
 
 ## Q. How to style the drop zone?
 
-### A. Use CSS for a better user experience:
-
-- Example:
-    
-    css
-    
-    Copy code
-    
-    `#dropZone {     width: 300px;     height: 200px;     border: 2px dashed #ccc;     display: flex;     align-items: center;     justify-content: center;     color: #888;     transition: background-color 0.3s ease; }  #dropZone.dragging {     background-color: lightblue;     border-color: #000;     color: #000; }`
-    
+### A. Use CSS for a better user experience    
 - **Dynamic Styling**: Add/remove the `dragging` class during `dragenter` and `dragleave` events.
 
 ---
@@ -94,31 +85,30 @@ Array.from(files).forEach(file => {
 ## Q. How to read files dropped into the area?
 
 ### A. Use the FileReader API:
-
 - Example:
-    
-    javascript
-    
-    Copy code
-    
-    ``dropZone.addEventListener('drop', (e) => {     e.preventDefault();     const files = e.dataTransfer.files;     Array.from(files).forEach(file => {         const reader = new FileReader();         reader.onload = (event) => {             console.log(`File content: ${event.target.result}`);         };         reader.readAsText(file); // Read as text; can also use readAsDataURL for images     }); });``
-    
+```js
+dropZone.addEventListener('drop', (e) => {
+    e.preventDefault();
+    const files = e.dataTransfer.files;
+    Array.from(files).forEach(file => {
+        const reader = new FileReader();
+        reader.onload = (event) => {
+            console.log(`File content: ${event.target.result}`);
+        };
+        reader.readAsText(file); // Read as text; can also use readAsDataURL for images
+    });
+});
+```
 
 ---
 
 ## Q. How to restrict file types?
 
 ### A. Check the file type in the `drop` event:
-
 - Example:
-    
-    javascript
-    
-    Copy code
-    
-    ``dropZone.addEventListener('drop', (e) => {     e.preventDefault();     const files = e.dataTransfer.files;     Array.from(files).forEach(file => {         if (file.type === 'image/png' || file.type === 'image/jpeg') {             console.log(`Accepted file: ${file.name}`);         } else {             console.error(`Rejected file: ${file.name}`);         }     }); });``
-    
+```js
 
+```
 ---
 
 ## Q. How to enable multiple file uploads using drag-and-drop?
