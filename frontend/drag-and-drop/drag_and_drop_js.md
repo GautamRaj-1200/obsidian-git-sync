@@ -37,29 +37,20 @@
 
 1. **Draggable Area:**
     - A specific HTML element that acts as the target area for file drops.
-    - Example:
-        html
-        
-        Copy code
-        
-        `<div id="dropZone">Drop files here</div>`
+    - Example        
+```html
+<div id="dropZone">Drop files here</div>
+```
         
 2. **Drag Events:**
-    
     - **`dragenter`**: Fires when a file is dragged into the target area.
     - **`dragover`**: Fires continuously as the file is dragged over the target. Used to visually indicate the drop zone.
     - **`dragleave`**: Fires when the file is dragged out of the target area.
     - **`drop`**: Fires when the file is dropped into the target area.
 3. **JavaScript Handlers:**
-    
     - Event listeners are added to handle each drag event.
     - Example:
-        
-        javascript
-        
-        Copy code
-        
-        `const dropZone = document.getElementById('dropZone'); dropZone.addEventListener('dragover', (e) => {     e.preventDefault(); // Prevent default behavior to allow drops     dropZone.style.backgroundColor = 'lightblue'; // Visual cue });  dropZone.addEventListener('drop', (e) => {     e.preventDefault();     const files = e.dataTransfer.files; // Access the dropped files     console.log(files); });`
+        const dropZone = document.getElementById('dropZone'); dropZone.addEventListener('dragover', (e) => {     e.preventDefault(); // Prevent default behavior to allow drops     dropZone.style.backgroundColor = 'lightblue'; // Visual cue });  dropZone.addEventListener('drop', (e) => {     e.preventDefault();     const files = e.dataTransfer.files; // Access the dropped files     console.log(files); });
         
 4. **File Handling:**
     
