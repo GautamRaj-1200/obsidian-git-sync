@@ -13,8 +13,9 @@
 - Ex: `accept=".doc,.docx,.xml,application/msword"`
 - Ex: `accept=".pdf"`
 - Ex: `accept=".doc"`
-- Ex: `accept="image/png` 
+- Ex: `accept="image/png"` or `accept=".png"` (Both are same) 
 - Ex: `accept="image/* , .pdf"` - _image/ *: means any image file_
+- **NOTE**: Always valid
 ## Q. How to allow users to select more than 1 file?
 ### A. Using `multiple` attribute
 - When the [`multiple`](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/multiple) Boolean attribute is specified, the file input allows the user to select more than one file.
