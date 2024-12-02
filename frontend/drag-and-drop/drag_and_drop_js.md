@@ -107,12 +107,21 @@ dropZone.addEventListener('drop', (e) => {
 ### A. Check the file type in the `drop` event:
 - Example:
 ```js
-
+dropZone.addEventListener('drop', (e) => {
+    e.preventDefault();
+    const files = e.dataTransfer.files;
+    Array.from(files).forEach(file => {
+        if (file.type === 'image/png' || file.type === 'image/jpeg') {
+            console.log(`Accepted file: ${file.name}`);
+        } else {
+            console.error(`Rejected file: ${file.name}`);
+        }
+    });
+});
 ```
 ---
 
 ## Q. How to enable multiple file uploads using drag-and-drop?
-
 ### A. Drag-and-Drop inherently supports multiple files:
 
 - Access all dropped files using `e.dataTransfer.files`.
@@ -122,6 +131,6 @@ dropZone.addEventListener('drop', (e) => {
 ## Q. What security concerns exist in drag-and-drop?
 
 ### A. Similar to `<input type="file">`:
-
 - Files are not uploaded automatically, and the user must explicitly confirm actions.
 - The **real file path** is never exposed—only the file name and metadata are accessible.
+---
