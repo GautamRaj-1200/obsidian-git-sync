@@ -1,2 +1,2 @@
 - DodoPayments
-- 
+- Paddle
