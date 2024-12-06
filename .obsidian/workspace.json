@@ -163,8 +163,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fc7a16f1d8bc45c7",
+  "active": "cdb48516a0915393",
   "lastOpenFiles": [
+    "twitter-bookmarks",
     "backend/nodejs/setup_ts.md",
     "backend/nodejs/setup_js.md",
     "backend/nodejs/google-auth-using-passport.md",
@@ -209,7 +210,6 @@
     "java/java-oops/images",
     "java/java-oops/association.md",
     "java/java-oops/11_final_keyword.md",
-    "java/java-oops/10_super_keyword.md",
     "java/java-basics/images/image-3.png"
   ]
 }
