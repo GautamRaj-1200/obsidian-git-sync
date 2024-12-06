@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "backend/auth/google_auth.md",
+                "file": "resources/resources.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "google_auth"
+              "title": "resources"
             }
           }
         ]
@@ -163,8 +163,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cdb48516a0915393",
+  "active": "fc7a16f1d8bc45c7",
   "lastOpenFiles": [
+    "backend/auth/google_auth.md",
     "twitter-bookmarks",
     "backend/nodejs/setup_ts.md",
     "backend/nodejs/setup_js.md",
@@ -181,7 +182,6 @@
     "frontend/google-fonts.md",
     "frontend/formdata/FormData.md",
     "frontend/input-file",
-    "backend/auth/google_auth.md",
     "backend/auth/auth.md",
     "linux/updating_softwares.md",
     "todo/shell_scripting.md",
@@ -207,7 +207,6 @@
     "java/java-oops/images/java-class-heirarchy-1.png",
     "java/java-oops/images/image-1.png",
     "java/java-oops/static_keyword.md",
-    "java/java-oops/images",
     "java/java-oops/association.md",
     "java/java-oops/11_final_keyword.md",
     "java/java-basics/images/image-3.png"
