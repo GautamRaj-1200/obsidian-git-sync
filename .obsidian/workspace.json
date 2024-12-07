@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "backend/auth/google_auth.md",
+                "file": "backend/auth/auth.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "google_auth"
+              "title": "auth"
             }
           }
         ]
@@ -166,6 +166,14 @@
   "active": "fc7a16f1d8bc45c7",
   "lastOpenFiles": [
     "backend/auth/flowcharts.md",
+    "backend/auth/images/logout-3.svg",
+    "backend/auth/images/logout-2.png",
+    "backend/auth/images/login.png",
+    "backend/auth/images/logout.png",
+    "backend/auth/images/logout-1.png",
+    "backend/auth/images/register-advanced-using-otp.png",
+    "backend/auth/images/register-basic.png",
+    "backend/auth/images/verify-token-jwt.png",
     "backend/auth/google_auth.md",
     "backend/auth/auth.md",
     "resources/prompts.md",
@@ -201,15 +209,6 @@
     "java/java-basics/loops_in_java.md",
     "java/java-basics/for_loop.pdf",
     "java/java-basics/loops_in_java.pdf",
-    "java/java-basics/01_introduction_basic.md",
-    "java/java-basics/images/loop-4.png",
-    "java/java-basics/images/loop-6.png",
-    "java/java-basics/images/loop-5.png",
-    "java/java-basics/images/loop-3.png",
-    "java/java-basics/images/loop-2.png",
-    "java/java-basics/images/loop-1.png",
-    "java/java-oops/images/java-class-heirarchy-1.png",
-    "java/java-oops/images/image-1.png",
-    "java/java-basics/images/image-3.png"
+    "java/java-basics/images/loop-4.png"
   ]
 }
