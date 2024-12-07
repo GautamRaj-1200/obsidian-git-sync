@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "js-vs-ts/generating_tokens.md",
+                "file": "resources/prompts.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "generating_tokens"
+              "title": "prompts"
             }
           }
         ]
@@ -165,8 +165,8 @@
   },
   "active": "2b5fe54688d53e04",
   "lastOpenFiles": [
-    "backend/auth/jwt_middleware_qa.md",
     "js-vs-ts/generating_tokens.md",
+    "backend/auth/jwt_middleware_qa.md",
     "js-vs-ts",
     "backend/auth/google_auth.md",
     "backend/auth/flowcharts.md",
