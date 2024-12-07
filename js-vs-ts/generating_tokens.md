@@ -121,22 +121,13 @@ return user;
 	if (error instanceof jwt.JsonWebTokenError) {
 		throw new Error('Invalid refresh token');
 	}
-
 throw error;
-
 }
-
 };
 
-  
-
 export {
-
 generateTokens,
-
 saveRefreshToken,
-
 verifyRefreshToken
-
 };
 ```
