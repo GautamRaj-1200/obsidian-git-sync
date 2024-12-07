@@ -43,19 +43,15 @@ A: Key differences include:
 A: Token verification typically involves:
 
 1. Token Extraction
-- Retrieve from Authorization header
-- Standard format: "Bearer <token>"
+	- Retrieve from Authorization header
+	- Standard format: "Bearer `<token>`"
 2. Signature Verification
-- Use `jsonwebtoken.verify()` method
-- Check token signature using secret key
-- Validate token hasn't been tampered with
-
-3. Expiration Check
-
-- Ensure token is within its valid time window
-- Reject expired tokens
-
-4. Payload Validation
-
-- Verify payload contains required information
-- Check user identity and permissions
+	- Use `jsonwebtoken.verify()` method
+	- Check token signature using secret key
+	- Validate token hasn't been tampered with
+. Expiration Check
+	- Ensure token is within its valid time window
+	- Reject expired tokens
+1. Payload Validation
+	- Verify payload contains required information
+	- Check user identity and permissions
