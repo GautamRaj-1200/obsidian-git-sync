@@ -49,9 +49,71 @@ A: Token verification typically involves:
 	- Use `jsonwebtoken.verify()` method
 	- Check token signature using secret key
 	- Validate token hasn't been tampered with
-. Expiration Check
+3. Expiration Check
 	- Ensure token is within its valid time window
 	- Reject expired tokens
-1. Payload Validation
+4. Payload Validation
 	- Verify payload contains required information
 	- Check user identity and permissions
+
+### Q5: How would you handle token-related errors in middleware?
+
+A: Error handling typically involves:
+- Expired Token: Return 401 (Unauthorized)
+- Invalid Signature: Return 403 (Forbidden)
+- Malformed Token: Return 400 (Bad Request)
+- Implement specific error messages
+- Log security-related events
+- Prevent access to protected routes
+### Q6: What is the purpose of having separate access and refresh tokens?
+
+A: The separation serves multiple security and usability purposes:
+- Access Tokens:
+    - Provide short-term, limited-access credentials
+    - Minimize potential damage if compromised
+    - Frequent rotation enhances security
+- Refresh Tokens:
+    - Allow generating new access tokens without re-login
+    - Stored securely in the database
+    - Can be revoked to invalidate all user sessions
+
+### Q7: How does the token refresh mechanism work?
+
+A: The typical token refresh flow:
+1. Access token expires
+2. Client sends refresh token to dedicated endpoint
+3. Server validates refresh token
+4. If valid, generates:
+    - New access token
+    - New refresh token (optional)
+5. Returns new tokens to client
+6. Client updates stored tokens
+
+### Q8: What are some potential vulnerabilities in token-based authentication?
+
+A: Key vulnerabilities include:
+- Token tampering
+- Insufficient token validation
+- Weak secret keys
+- Token storage risks
+- Lack of token revocation mechanism
+- Replay attacks
+- Insufficient token expiration
+
+### Q9: How would you implement logout functionality?
+
+A: Logout typically involves: Client-Side:
+- Remove tokens from local storage
+- Redirect to login page
+Server-Side:
+- Invalidate refresh token in database
+- Optionally blacklist access token
+- Clear any server-side session data
+
+### Q10: What libraries are commonly used for JWT implementation in Node.js?
+
+A: Most common libraries:
+- `jsonwebtoken`: Primary library for JWT operations
+- `passport`: Authentication middleware
+- `passport-jwt`: JWT strategy for Passport
+- `express-jwt`: Middleware for JWT validation in Express
