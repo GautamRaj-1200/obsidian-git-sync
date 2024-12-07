@@ -57,30 +57,30 @@ dotenv.config();
 const generateTokens: GenerateTokensFunction = (user) => {
 
 // Safely assert environment variables (recommended to validate these exist)
-const accessTokenSecret = process.env.ACCESS_TOKEN_SECRET;
-const refreshTokenSecret = process.env.REFRESH_TOKEN_SECRET;
-const accessTokenExpiry = process.env.ACCESS_TOKEN_EXPIRY;
-const refreshTokenExpiry = process.env.REFRESH_TOKEN_EXPIRY;
-
-// Validate environment variables
-if (!accessTokenSecret || !refreshTokenSecret || !accessTokenExpiry || !refreshTokenExpiry) {
-	throw new Error('Missing JWT configuration environment variables');
-}
-  
-// Generate access token
-const accessToken = jwt.sign(
-	{ id: user._id, email: user.email } as UserPayload,
-	accessTokenSecret,
-	{ expiresIn: accessTokenExpiry }
-);
-
-// Generate refresh token
-const refreshToken = jwt.sign(
-	{ id: user._id, email: user.email } as UserPayload,
-	refreshTokenSecret,
-	{ expiresIn: refreshTokenExpiry }
-);
-return { accessToken, refreshToken };
+	const accessTokenSecret = process.env.ACCESS_TOKEN_SECRET;
+	const refreshTokenSecret = process.env.REFRESH_TOKEN_SECRET;
+	const accessTokenExpiry = process.env.ACCESS_TOKEN_EXPIRY;
+	const refreshTokenExpiry = process.env.REFRESH_TOKEN_EXPIRY;
+	
+	// Validate environment variables
+	if (!accessTokenSecret || !refreshTokenSecret || !accessTokenExpiry || !refreshTokenExpiry) {
+		throw new Error('Missing JWT configuration environment variables');
+	}
+	  
+	// Generate access token
+	const accessToken = jwt.sign(
+		{ id: user._id, email: user.email } as UserPayload,
+		accessTokenSecret,
+		{ expiresIn: accessTokenExpiry }
+	);
+	
+	// Generate refresh token
+	const refreshToken = jwt.sign(
+		{ id: user._id, email: user.email } as UserPayload,
+		refreshTokenSecret,
+		{ expiresIn: refreshTokenExpiry }
+	);
+	return { accessToken, refreshToken };
 };
 
 // Save refresh token to user document
