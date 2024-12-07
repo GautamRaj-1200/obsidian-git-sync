@@ -163,8 +163,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2b5fe54688d53e04",
+  "active": "cdb48516a0915393",
   "lastOpenFiles": [
+    "js_vs_ts",
     "backend/auth/google_auth.md",
     "backend/auth/flowcharts.md",
     "backend/auth/jwt_middleware_qa.md",
@@ -207,7 +208,6 @@
     "cron-jobs-allowed-fields.png",
     "backend/nodejs/cron-jobs",
     "backend/nodejs/cron-jobs.md",
-    "java/java-basics/loops_in_java.md",
     "java/java-basics/for_loop.pdf",
     "java/java-basics/loops_in_java.pdf",
     "java/java-basics/images/loop-4.png"
