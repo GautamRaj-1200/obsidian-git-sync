@@ -38,3 +38,9 @@ SELECT * FROM Customers;
 - `CREATE INDEX` - creates an index (search key)
 - `DROP INDEX` - deletes an index
 
+### Create Database
+- The `CREATE DATABASE` statement is used to create a new SQL database.
+```sql
+CREATE DATABASE databasename_;
+```
+
