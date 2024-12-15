@@ -46,6 +46,11 @@ CREATE DATABASE databasename;
 ```
 - EXAMPLE:
 ```sql
-CREATE DATABASE testDB;
+CREATE DATABASE testdb;
+```
+
+### Show Databases
+```sql
+SHOW DATABASES
 ```
 
