@@ -65,3 +65,5 @@ DROP DATABASE databasename;
 ```sql
 DROP DATABASE testdb;
 ```
+
+### Create Table
