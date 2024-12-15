@@ -1,0 +1,1 @@
+1. Create an **Applications** folder in the home directory.
