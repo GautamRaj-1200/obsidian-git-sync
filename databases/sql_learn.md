@@ -111,3 +111,11 @@ CREATE TABLE Persons (
 - Each column in a database table is required to have a name and a data type.
 ### Drop Table
 - The `DROP TABLE` statement is used to drop an existing table in a database.
+- SYNTAX:
+```sql
+DROP TABLE table_name;
+```
+- EXAMPLE:
+```sql
+DROP TABLE Persons
+```
