@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "databases/mysql_datatypes.md",
+                "file": "databases/sql_learn.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "mysql_datatypes"
+              "title": "sql_learn"
             }
           }
         ]
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "databases/mysql_datatypes.md",
+                "file": "databases/sql_learn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for mysql_datatypes"
+              "title": "Backlinks for sql_learn"
             }
           },
           {
@@ -112,12 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "databases/mysql_datatypes.md",
+                "file": "databases/sql_learn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from mysql_datatypes"
+              "title": "Outgoing links from sql_learn"
             }
           },
           {
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "databases/mysql_datatypes.md"
+                "file": "databases/sql_learn.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of mysql_datatypes"
+              "title": "Outline of sql_learn"
             }
           }
         ]
@@ -165,8 +165,8 @@
   },
   "active": "4cf9b590a1f20f1f",
   "lastOpenFiles": [
-    "databases/sql_learn.md",
     "databases/mysql_datatypes.md",
+    "databases/sql_learn.md",
     "linux/updating_softwares.md",
     "databases",
     "linux/running_a_script.md",
