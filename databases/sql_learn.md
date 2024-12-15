@@ -113,11 +113,17 @@ CREATE TABLE Persons (
 ### Alter Table
 - The `ALTER TABLE` statement is used to add, delete, or modify columns in an existing table.
 - The `ALTER TABLE` statement is also used to add and drop various constraints on an existing table.
--  Add Column
+-  ADD COLUMN
 ```sql
 ALTER TABLE table_name  
 ADD column_name datatype;
 ```
+- EXAMPLE
+```sql
+ALTER TABLE Persons  
+ADD Email varchar(255);
+```
+- DROP COLUMN
 ### Drop Table
 - The `DROP TABLE` statement is used to drop an existing table in a database.
 - SYNTAX:
