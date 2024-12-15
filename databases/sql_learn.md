@@ -11,4 +11,10 @@
 	- A **table** is a collection of related data entries and it consists of columns and rows.
 	- Every table is broken up into smaller entities called **fields**.
 		- A **field** is a column in a table that is designed to maintain specific information about every record in the table.
-	- A **record**, also called a row, is each individual entry that exists in a table.
+	- A **record**, also called a row, is each individual entry that exists in a table. It is a horizontal entity in a table.
+	- A **column** is a vertical entity in a table that contains all information associated with a specific field in a table.
+
+## SQL Statements
+- Most of the actions we need to perform on a database are done with SQL statements.
+- SQL statements consist of keywords that are easy to understand.
+- The following SQL statement returns all records from a table named "Customers":
