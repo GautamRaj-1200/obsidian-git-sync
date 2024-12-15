@@ -109,3 +109,5 @@ CREATE TABLE Persons (
 ### Data Types
 - The data type of a column defines what value the column can hold: integer, character, money, date and time, binary, and so on.
 - Each column in a database table is required to have a name and a data type.
+### Drop Table
+- The `DROP TABLE` statement is used to drop an existing table in a database.
