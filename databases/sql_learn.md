@@ -109,6 +109,15 @@ CREATE TABLE Persons (
 ### Data Types
 - The data type of a column defines what value the column can hold: integer, character, money, date and time, binary, and so on.
 - Each column in a database table is required to have a name and a data type.
+
+### Alter Table
+- The `ALTER TABLE` statement is used to add, delete, or modify columns in an existing table.
+- The `ALTER TABLE` statement is also used to add and drop various constraints on an existing table.
+-  Add Column
+```sql
+ALTER TABLE table_name  
+ADD column_name datatype;
+```
 ### Drop Table
 - The `DROP TABLE` statement is used to drop an existing table in a database.
 - SYNTAX:
