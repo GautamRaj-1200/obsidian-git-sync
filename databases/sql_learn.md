@@ -145,12 +145,13 @@ RENAME COLUMN PersonId TO Pid;
 ```
 - **MODIFY DATATYPE : SYNTAX**
 ```sql
-ALTER TABLE _table_name_  
-MODIFY COLUMN _column_name datatype_;
+ALTER TABLE table_name  
+MODIFY COLUMN column_name datatype;
 ```
 - EXAMPLE`
 ```sql
-
+ALTER TABLE table_name  
+MODIFY COLUMN column_name datatype;
 ```
 ### Drop Table
 - The `DROP TABLE` statement is used to drop an existing table in a database.
