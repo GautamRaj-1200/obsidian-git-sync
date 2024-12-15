@@ -138,7 +138,10 @@ DROP COLUMN Email;
 ALTER TABLE table_name
 RENAME COLUMN old_name to new_name;
 ```
-- EX
+- EXAMPLE:
+```sql
+
+```
 ### Drop Table
 - The `DROP TABLE` statement is used to drop an existing table in a database.
 - SYNTAX:
