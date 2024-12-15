@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7e93e98983a1baae",
+        "id": "2ff5b883920affdd",
         "type": "tabs",
         "children": [
           {
-            "id": "4cf9b590a1f20f1f",
+            "id": "61e6f8c2da034b7e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -163,7 +163,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4cf9b590a1f20f1f",
+  "active": "61e6f8c2da034b7e",
   "lastOpenFiles": [
     "databases/mysql_datatypes.md",
     "databases/sql_learn.md",
