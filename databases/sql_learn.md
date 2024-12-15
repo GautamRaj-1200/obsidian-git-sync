@@ -67,3 +67,8 @@ DROP DATABASE testdb;
 ```
 
 ### Create Table
+- Let's first create a database to create tables inside it. 
+```sql
+CREATE DATABASE record_company;
+```
+
