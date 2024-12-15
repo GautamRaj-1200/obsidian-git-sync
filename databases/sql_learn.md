@@ -140,7 +140,8 @@ RENAME COLUMN old_name to new_name;
 ```
 - EXAMPLE:
 ```sql
-
+ALTER TABLE Persons
+RENAME COLUMN PersonId TO Pid;
 ```
 ### Drop Table
 - The `DROP TABLE` statement is used to drop an existing table in a database.
