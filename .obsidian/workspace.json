@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux/finding_program_name.md",
+                "file": "linux/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "finding_program_name"
+              "title": "Untitled"
             }
           }
         ]
@@ -159,18 +159,21 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "61e6f8c2da034b7e",
   "lastOpenFiles": [
+    "linux/kali_linux_notes.md",
+    "linux/Untitled.md",
+    "linux/finding_program_name.md",
     "databases/sql_learn.md",
     "databases/mysql_datatypes.md",
     "linux/updating_softwares.md",
     "databases",
     "linux/running_a_script.md",
     "linux/run_script_from_anywhere.md",
-    "linux/removing_software_completely.md",
-    "linux/finding_program_name.md"
+    "linux/removing_software_completely.md"
   ]
 }
