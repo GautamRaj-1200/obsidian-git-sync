@@ -125,8 +125,8 @@ ADD Email varchar(255);
 ```
 - DROP COLUMN:  Some database systems don't allow deleting a column: SYNTAX:
 ```sql
-ALTER TABLE _table_name_  
-DROP COLUMN _column_name_;
+ALTER TABLE table_name 
+DROP COLUMN column_name;
 ```
 - EXAMPLE
 ```sql
