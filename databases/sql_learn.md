@@ -46,6 +46,6 @@ CREATE DATABASE databasename;
 ```
 - EXAMPLE:
 ```sql
-
+CREATE DATABASE testDB;
 ```
 
