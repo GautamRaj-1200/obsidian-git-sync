@@ -81,4 +81,14 @@ USE database_name;
 USE record_company
 ```
 
-
+### Create Table
+- The `CREATE TABLE` statement is used to create a new table in a database.
+- SYNTAX:
+```sql
+CREATE TABLE _table_name_ (  
+    _column1 datatype_,  
+    _column2 datatype_,  
+    _column3 datatype_,  
+   ....  
+);
+```
