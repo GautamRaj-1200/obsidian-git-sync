@@ -92,3 +92,5 @@ CREATE TABLE _table_name_ (
    ....  
 );
 ```
+- The column parameters specify the names of the columns of the table.
+- The datatype parameter specifies the type of data the column can hold (e.g. varchar, integer, date, etc.).
