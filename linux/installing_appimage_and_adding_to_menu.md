@@ -9,7 +9,7 @@
 	- `sudo chmod 755 Obsidian.AppImage`
 - Go to `nano ~/.local/share/applications/obsidian.desktop`
 - Write this 
-```bash
+```text
 [Desktop Entry]
 Name=Obsidian
 Exec=/home/coding-stage/Applications/obsidian/Obsidian.AppImage
@@ -17,3 +17,5 @@ Icon=/home/coding-stage/Applications/obsidian/Obsidian-logo.jpeg
 Type=Application
 ```
 - Save and Exit
+- Then run the following in terminal
+`sudo update-desktop-database ~/.local/share/applications`
