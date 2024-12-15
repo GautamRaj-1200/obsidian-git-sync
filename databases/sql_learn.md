@@ -50,8 +50,10 @@ CREATE DATABASE testdb;
 ```
 
 ### Show Databases
-- 
+- To show all the databases
 ```sql
 SHOW DATABASES
 ```
 
+### Drop Database
+- The `DROP DATABASE` statement is used to drop an existing SQL database.
