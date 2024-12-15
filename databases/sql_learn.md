@@ -94,3 +94,7 @@ CREATE TABLE _table_name_ (
 ```
 - The column parameters specify the names of the columns of the table.
 - The datatype parameter specifies the type of data the column can hold (e.g. varchar, integer, date, etc.).
+
+### Data Types
+- The data type of a column defines what value the column can hold: integer, character, money, date and time, binary, and so on.
+- Each column in a database table is required to have a name and a data type.
