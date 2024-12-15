@@ -143,6 +143,15 @@ RENAME COLUMN old_name to new_name;
 ALTER TABLE Persons
 RENAME COLUMN PersonId TO Pid;
 ```
+- **MODIFY DATATYPE : SYNTAX**
+```sql
+ALTER TABLE _table_name_  
+MODIFY COLUMN _column_name datatype_;
+```
+- EXAMPLE`
+```sql
+
+```
 ### Drop Table
 - The `DROP TABLE` statement is used to drop an existing table in a database.
 - SYNTAX:
