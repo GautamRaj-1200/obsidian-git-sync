@@ -66,9 +66,16 @@ DROP DATABASE databasename;
 DROP DATABASE testdb;
 ```
 
-### Create Table
-- Let's first create a database to create tables inside it. 
+### Use Database
+- Let's first create a database: 
 ```sql
 CREATE DATABASE record_company;
 ```
+-  The use command is used when there are multiple databases in the SQL and the user or programmer specifically wants to use a particular database.
+- SYNTAX:
+```sql
 
+```
+- EXAMPLE:
+```sql
+```
