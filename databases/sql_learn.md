@@ -50,6 +50,7 @@ CREATE DATABASE testdb;
 ```
 
 ### Show Databases
+- 
 ```sql
 SHOW DATABASES
 ```
