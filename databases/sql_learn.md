@@ -99,8 +99,9 @@ CREATE TABLE _table_name_ (
 - The data type of a column defines what value the column can hold: integer, character, money, date and time, binary, and so on.
 - Each column in a database table is required to have a name and a data type.
 
+### MySQL Data Types
 
-## String Data Types
+### String Data Types
 
 | Data Type    | Description                                                                                                                                      |
 |--------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -119,7 +120,7 @@ CREATE TABLE _table_name_ (
 | ENUM(val1, val2, val3, ...) | A string object that can have only one value, chosen from a list of possible values. Up to 65535 values in the ENUM list. |
 | SET(val1, val2, val3, ...) | A string object that can have 0 or more values, chosen from a list of possible values. Up to 64 values in the SET list. |
 
-## Numeric Data Types
+### Numeric Data Types
 
 | Data Type         | Description                                                                                                           |
 |-------------------|-----------------------------------------------------------------------------------------------------------------------|
@@ -141,7 +142,7 @@ CREATE TABLE _table_name_ (
 
 **Note:** All the numeric data types may have the extra options `UNSIGNED` (disallows negative values) or `ZEROFILL` (automatically adds the UNSIGNED attribute and pads the column with zeroes).
 
-## Date and Time Data Types
+### Date and Time Data Types
 
 | Data Type       | Description                                                                                                                                          |
 |-----------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
