@@ -18,3 +18,8 @@
 - Most of the actions we need to perform on a database are done with SQL statements.
 - SQL statements consist of keywords that are easy to understand.
 - The following SQL statement returns all records from a table named "Customers":
+```sql
+SELECT * FROM Customers;
+```
+- SQL keywords are NOT case sensitive: `select` is the same as `SELECT`
+- 
