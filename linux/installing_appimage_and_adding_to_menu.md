@@ -3,4 +3,8 @@
 	- File name : `Obsidian.AppImage`
 - Create a folder inside `Applications` folder
 	-  `obsidian`
-		- Move `Obs`
+		- Move `Obsidian.AppImage` here
+		- Also add a logo image if you like
+- Give executable permission to AppImage
+	- `sudo chmod 755 Obsidian.AppImage`
+	- 
