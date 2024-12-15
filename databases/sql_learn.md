@@ -150,8 +150,8 @@ MODIFY COLUMN column_name datatype;
 ```
 - EXAMPLE`
 ```sql
-ALTER TABLE table_name  
-MODIFY COLUMN column_name datatype;
+ALTER TABLE Persons
+MODIFY COLUMN Pid VARCHAR(255);
 ```
 ### Drop Table
 - The `DROP TABLE` statement is used to drop an existing table in a database.
