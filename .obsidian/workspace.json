@@ -11,10 +11,14 @@
             "id": "4cf9b590a1f20f1f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "databases/sql_learn.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "sql_learn"
             }
           }
         ]
@@ -89,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "databases/sql_learn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for sql_learn"
             }
           },
           {
@@ -107,11 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "databases/sql_learn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from sql_learn"
             }
           },
           {
@@ -132,9 +138,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "databases/sql_learn.md"
+              },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of sql_learn"
             }
           }
         ]
@@ -156,5 +164,13 @@
     }
   },
   "active": "4cf9b590a1f20f1f",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "linux/updating_softwares.md",
+    "databases/sql_learn.md",
+    "databases",
+    "linux/running_a_script.md",
+    "linux/run_script_from_anywhere.md",
+    "linux/removing_software_completely.md",
+    "linux/finding_program_name.md"
+  ]
 }
