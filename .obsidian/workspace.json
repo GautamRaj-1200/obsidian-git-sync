@@ -4,6 +4,7 @@
     "type": "split",
     "children": [
       {
+<<<<<<< HEAD
         "id": "aca92cce6f9f79fc",
         "type": "tabs",
         "children": [
@@ -15,6 +16,23 @@
               "state": {},
               "icon": "lucide-file",
               "title": "New tab"
+=======
+        "id": "736263956633ff09",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2b5fe54688d53e04",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "js-vs-ts/generating_tokens.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "generating_tokens"
+>>>>>>> f256b377d23e9556645f8ca8aed5e4235bf28a7d
             }
           }
         ]
@@ -150,6 +168,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -159,53 +178,60 @@
       "obsidian-git:Open Git source control": false
     }
   },
+<<<<<<< HEAD
   "active": "c07ff22fcb8b7117",
   "lastOpenFiles": [
     "backend/auth/google_auth.md",
     "backend/auth/auth.md",
+=======
+  "active": "2b5fe54688d53e04",
+  "lastOpenFiles": [
+    "backend/auth/jwt_middleware_qa.md",
+    "resources/prompts.md",
+    "js-vs-ts/generating_tokens.md",
+    "js-vs-ts",
+    "backend/auth/google_auth.md",
+    "backend/auth/flowcharts.md",
+    "backend/auth/auth.md",
+    "resources/resources.md",
+    "backend/auth/images/logout-3.svg",
+    "backend/auth/images/logout-2.png",
+    "backend/auth/images/login.png",
+    "backend/auth/images/logout.png",
+    "backend/auth/images/logout-1.png",
+    "backend/auth/images/register-advanced-using-otp.png",
+    "backend/auth/images/register-basic.png",
+    "backend/auth/images/verify-token-jwt.png",
+    "resources/payment_options.md",
+    "twitter-bookmarks",
+    "backend/nodejs/setup_ts.md",
+    "backend/nodejs/setup_js.md",
+    "backend/nodejs/google-auth-using-passport.md",
+    "backend/nodejs/directory_structure_script.md",
+    "backend/nodejs/cron-jobs/credit_system_scheduler.md",
+    "backend/nodejs/cron-jobs/npmjs.com-node-cron - npm.pdf",
+    "frontend/drag-and-drop/drag_and_drop_js.md",
+    "games/steamgames.md",
+    "frontend/upload-progress-file/calculate-upload-progress-file.md",
+    "frontend/upload-progress-file",
+    "frontend/Untitled.md",
+    "frontend/input-file/input-file.md",
+    "frontend/google-fonts.md",
+    "frontend/formdata/FormData.md",
+    "frontend/input-file",
+    "linux/updating_softwares.md",
+>>>>>>> f256b377d23e9556645f8ca8aed5e4235bf28a7d
     "todo/shell_scripting.md",
     "to-read/js.md",
     "to-read/css.md",
     "todo",
     "ai-fixes/monthly_credit_system_claude.md",
     "ai-fixes",
-    "backend/nodejs/cron-jobs/npmjs.com-node-cron - npm.pdf",
     "to-read",
     "cron-jobs-allowed-fields.png",
-    "backend/nodejs/cron-jobs/credit_system_scheduler.md",
     "backend/nodejs/cron-jobs",
-    "backend/nodejs/google-auth-using-passport.md",
     "backend/nodejs/cron-jobs.md",
-    "java/java-basics/loops_in_java.md",
     "java/java-basics/for_loop.pdf",
-    "java/java-basics/loops_in_java.pdf",
-    "java/java-basics/01_introduction_basic.md",
-    "java/java-basics/images/loop-4.png",
-    "java/java-basics/images/loop-6.png",
-    "java/java-basics/images/loop-5.png",
-    "java/java-basics/images/loop-3.png",
-    "java/java-basics/images/loop-2.png",
-    "java/java-basics/images/loop-1.png",
-    "java/java-oops/images/java-class-heirarchy-1.png",
-    "java/java-oops/images/image-1.png",
-    "java/java-oops/static_keyword.md",
-    "java/java-oops/images",
-    "java/java-oops/association.md",
-    "java/java-oops/11_final_keyword.md",
-    "java/java-oops/10_super_keyword.md",
-    "java/java-oops/08_interface.md",
-    "java/java-oops/09_this_keyword.md",
-    "java/java-oops/07_abstraction.md",
-    "java/java-oops/06_polymorphism.md",
-    "java/java-oops/05_inheritance.md",
-    "java/java-oops/04_encapsulation.md",
-    "java/java-oops/01_introduction_to_oops.md",
-    "java/java-oops/03_access_modifiers.md",
-    "java/java-oops/02_classes_objects_constructors.md",
-    "java/java-oops/00_order_of_study.md",
-    "java/java-oops",
-    "java/java-basics/images/image-3.png",
-    "java/java-basics/images",
-    "java/java-basics/conditionals_in_java.md"
+    "java/java-basics/images/loop-4.png"
   ]
 }

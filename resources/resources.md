@@ -4,4 +4,9 @@
 
 ## Animations
 - [Motion Design for the web](https://www.youtube.com/watch?v=vqXLGX0szIQ)
-- 
+
+## CP Blogs
+- CODEFORCES
+- ATCODER
+- TOPCODER
+- CODECHEF
