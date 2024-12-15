@@ -4,37 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "73fb73499f6f6d67",
+        "id": "aca92cce6f9f79fc",
         "type": "tabs",
         "children": [
           {
-            "id": "68629c85ea457b2a",
+            "id": "c07ff22fcb8b7117",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "backend/auth/google_auth.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "google_auth"
-            }
-          },
-          {
-            "id": "88f6651321b48ab5",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.7.7"
-              },
-              "icon": "lucide-file",
-              "title": "Release Notes 1.7.7"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -172,13 +155,14 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "88f6651321b48ab5",
+  "active": "c07ff22fcb8b7117",
   "lastOpenFiles": [
-    "backend/auth/auth.md",
     "backend/auth/google_auth.md",
+    "backend/auth/auth.md",
     "todo/shell_scripting.md",
     "to-read/js.md",
     "to-read/css.md",
