@@ -57,3 +57,11 @@ SHOW DATABASES
 
 ### Drop Database
 - The `DROP DATABASE` statement is used to drop an existing SQL database.
+- SYNTAX:
+```sql
+DROP DATABASE databasename;
+```
+- EXAMPLE:
+```sql
+DROP DATABASE testdb;
+```
