@@ -86,9 +86,9 @@ USE record_company
 - SYNTAX:
 ```sql
 CREATE TABLE _table_name_ (  
-    _column1 datatype_,  
-    _column2 datatype_,  
-    _column3 datatype_,  
+    column1 datatype,  
+    column2 datatype,  
+    column3 datatype,  
    ....  
 );
 ```
