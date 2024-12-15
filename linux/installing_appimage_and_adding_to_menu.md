@@ -19,3 +19,6 @@ Type=Application
 - Save and Exit
 - Then run the following in terminal
 `sudo update-desktop-database ~/.local/share/applications`
+
+VIDEO
+[https://www.youtube.com/watch?v=xhfaV02RYdo](https://www.youtube.com/watch?v=xhfaV02RYdo)
