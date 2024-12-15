@@ -40,7 +40,12 @@ SELECT * FROM Customers;
 
 ### Create Database
 - The `CREATE DATABASE` statement is used to create a new SQL database.
+- SYNTAX:
 ```sql
-CREATE DATABASE databasename_;
+CREATE DATABASE databasename;
+```
+- EXAMPLE:
+```sql
+
 ```
 
