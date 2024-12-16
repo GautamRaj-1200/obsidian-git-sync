@@ -31,4 +31,7 @@ sudo service bluetooth restart
 
 NOTES:
 - As there is usually no documentation about this, you may have to experiment with higher or lower buffer values.
-- 
+- A much smaller value worked most of the time, but I had to crank it up to 64448 to get rid of skips when doing stuff like inspecting elements in chrome and changing styles
+
+ORIGINAL ANSWER LINK:
+[https://askubuntu.com/questions/475987/a2dp-on-pulseaudio-terrible-choppy-skipping-audio](https://askubuntu.com/questions/475987/a2dp-on-pulseaudio-terrible-choppy-skipping-audio)
