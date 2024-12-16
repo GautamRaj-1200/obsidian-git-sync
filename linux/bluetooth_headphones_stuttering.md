@@ -15,7 +15,8 @@ Formats:
 	pcm
 	.......
 ```
-3. We see that the buffers have currently 0 latency. In the next step, you will need the `NAME` and `PORT` of your output. In this example, these are `bluez_card.28_11_A5_84_B6_F9` and `headset-output`, respectively.
-
-2.
-4. Then set the latence
+3. We see that the buffers have currently 0 latency. In the next step, you will need the `NAME` and `PORT` of your output. In this example, these are `bluez_card.28_11_A5_84_B6_F9` and `headset-output`(it may be `speaker-output` if you have a speaker), respectively.
+4. Set the buffer size (latency) of your card to a suitable value with this command pattern:
+```bash
+pactl set-port-latency-offset <NAME> <PORT> <BUFFER_SIZE_MICROSECONDS>
+```
