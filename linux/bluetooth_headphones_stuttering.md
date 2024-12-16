@@ -15,4 +15,7 @@ Formats:
 	pcm
 	.......
 ```
-3. We need the following data : `bluez_card.8B_A0_0F_41_71_74` and `headset-output`. If you have 
+3. We see that the buffers have currently 0 latency. In the next step, you will need the `NAME` and `PORT` of your output. In this example, these are `bluez_card.28_11_A5_84_B6_F9` and `headset-output`, respectively.
+
+2.
+4. Then set the latence
