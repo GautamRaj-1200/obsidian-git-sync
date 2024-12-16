@@ -2,6 +2,7 @@
 ```bash
 pactl list | grep -Pzo '.*bluez_card(.*\n)*'
 ```
+pactl might not be installed, So we might neew
 2. The output will be something like this:
 ```bash
 device.name = "bluez_card.8B_A0_0F_41_71_74"                  
