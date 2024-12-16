@@ -20,3 +20,15 @@ Formats:
 ```bash
 pactl set-port-latency-offset <NAME> <PORT> <BUFFER_SIZE_MICROSECONDS>
 ```
+The latency unit of the following command is microseconds, so I'm using a 50 millisecond buffer for my command here:
+```
+pactl set-port-latency-offset bluez_card.28_11_A5_84_B6_F9 speaker-output 50000
+```
+5. Restart your bluetooth service to apply your change
+```
+sudo service bluetooth restart
+```
+
+NOTES:
+- As there is usually no documentation about this, you may have to experiment with higher or lower buffer values.
+- 
