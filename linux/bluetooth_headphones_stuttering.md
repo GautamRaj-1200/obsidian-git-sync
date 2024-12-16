@@ -1,3 +1,4 @@
 1. Find necessary info about the bluetooth device (while it is connected!)
-```ba
+```bash
+pactl list | grep -Pzo '.*bluez_card(.*\n)*'
 ```
