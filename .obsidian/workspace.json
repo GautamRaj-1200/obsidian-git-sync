@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux/finding_program_name.md",
+                "file": "linux/bluetooth_headphones_stuttering.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "finding_program_name"
+              "title": "bluetooth_headphones_stuttering"
             }
           }
         ]
@@ -165,9 +165,10 @@
   },
   "active": "073cc99a61c134ad",
   "lastOpenFiles": [
+    "linux/finding_program_name.md",
+    "linux/bluetooth_headphones_stuttering.md",
     "linux/installing_appimage_and_adding_to_menu.md",
     "linux/kali_linux_notes.md",
-    "linux/finding_program_name.md",
     "databases/sql_learn.md",
     "databases/mysql_datatypes.md",
     "linux/updating_softwares.md",
